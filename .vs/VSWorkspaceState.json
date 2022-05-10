@@ -1,7 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\public",
+    "\\public\\events",
+    "\\public\\mechs",
+    "\\public\\missions",
+    "\\public\\pilots",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\assets\\styles"
   ],
-  "SelectedNode": "\\C:\\Users\\Gus\\Source\\Repos\\lancer-briefings",
+  "SelectedNode": "\\public\\pilots\\Sync.png",
   "PreviewInSolutionExplorer": false
 }

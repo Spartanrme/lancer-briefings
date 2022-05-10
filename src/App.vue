@@ -155,7 +155,7 @@ export default {
         "headerTitle": "Voidstorm",
         "headerSubtitle": "Mercenary Company",
         "subheaderTitle": "Bravo Team",
-        "subheaderSubtitle": "Give me a slogan to put here please.",
+        "subheaderSubtitle": "Storm Squadron",
       },
       "options":{
         "eventsMarkdownPerMission": true
