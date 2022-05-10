@@ -1,12 +1,13 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/55d0e9f5-8e0d-422e-a3d0-38a79ecf2413/deploy-status)](https://app.netlify.com/sites/lancer-briefings/deploys)
 # Lancer Briefings
 
-**[Live Demo](https://lancer.kuenaimaku.com/)** (No Room for a Wallflower Spoilers)
+**[Link](https://preeminent-creponne-a662a6.netlify.app/)**
 
 Go over mission briefings within the LANCER Universe in style by showing your players a fully animated mission briefing screen, with a Mirrorsmoke Mercenary Company theme.
 
 ## Credits
 
+* Kuenaimaku for the original this fork is based off of (https://github.com/Kuenaimaku/lancer-briefings).
 * Alkyama#2737 (discord) for the original [Figma Template](figma.com/community/file/983540597915480981) used as reference.
 * [VantaJS](https://www.vantajs.com/) for the slick 3d openGL backgrounds.
 
