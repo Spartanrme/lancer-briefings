@@ -3,6 +3,7 @@
     "",
     "\\public",
     "\\public\\events",
+    "\\public\\icons",
     "\\public\\mechs",
     "\\public\\missions",
     "\\public\\pilots",
@@ -10,6 +11,6 @@
     "\\src\\assets",
     "\\src\\assets\\styles"
   ],
-  "SelectedNode": "\\public\\planet.webm",
+  "SelectedNode": "\\public\\icons\\mission-partial-success.svg",
   "PreviewInSolutionExplorer": false
 }
