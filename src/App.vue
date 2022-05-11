@@ -96,12 +96,12 @@ export default {
         {
           "slug": "001",
           "name": "REDACTED",
-          "status": "complete"
+          "status": "success"
           },
         {
           "slug": "002",
           "name": "INFILTRATE",
-          "status": "complete"
+            "status": "partial-success"
           },
         {
           "slug": "003",
