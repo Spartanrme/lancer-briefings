@@ -89,18 +89,23 @@ export default {
 
   data() {
     return {
-      "mission_slug": "002",
+      "mission_slug": "003",
       "current_md": "",
       "events": "",
       "missions": [
         {
           "slug": "001",
-          "name": "Hull-Breach",
+          "name": "REDACTED",
           "status": "complete"
           },
         {
           "slug": "002",
-          "name": "Piracy",
+          "name": "INFILTRATE",
+          "status": "complete"
+          },
+        {
+          "slug": "003",
+          "name": "RETRIEVE",
           "status": "start"
           },
       ],
