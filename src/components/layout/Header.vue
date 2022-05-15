@@ -27,6 +27,10 @@
           <h4>Year</h4>
           <span class="subtitle">{{ header.year }}</span>
         </div>
+        <div id="year">
+          <h4>Month</h4>
+          <span class="subtitle">{{ header.month }}</span>
+        </div>
       </div>
       <div class="location-row" id="system-gate-ring">
         <div id="system">

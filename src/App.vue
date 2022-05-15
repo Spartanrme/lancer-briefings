@@ -153,7 +153,8 @@ export default {
       ],
       "header": {
         "planet": "Perax-1",
-        "year": "5016u",
+        "year": "5015u",
+        "month": "November",
         "system": "Perax",
         "gate": "M'Goun",
         "ring": "ATLAS",
