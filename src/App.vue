@@ -111,7 +111,7 @@ export default {
       ],
       "pilots": [
         {
-          "callsign": "Architech",
+          "callsign": "Architect",
           "alias": "Victor Blayse",
           "code": "462370be-bd0f-41c2-b667-cc75f3a59a96///VOIDSTORM//377308ad-ba23-410b-ae37-68a1fb5f8db4",
           "corpro": "IPS-N",

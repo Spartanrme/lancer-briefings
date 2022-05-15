@@ -1,1 +1,4 @@
-#DOSSIER PENDING
+## DOSSIER PENDING
+
+## NOTES
+we're gaming now
