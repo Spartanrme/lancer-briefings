@@ -113,7 +113,7 @@ export default {
         {
           "callsign": "Architect",
           "alias": "Victor Blayse",
-          "code": "462370be-bd0f-41c2-b667-cc75f3a59a96///VOIDSTORM//377308ad-ba23-410b-ae37-68a1fb5f8db4",
+          "code": "BF5D1D96-BB30-5913-B1C1-A666AB76C1AE///VOIDSTORM-PMC///B5AEF9C6-CC60-5C42-839C-BCEB26033B88",
           "corpro": "IPS-N",
           "frame": "VLAD",
           "mech": "Esperanza_Invicta"
@@ -121,7 +121,7 @@ export default {
         {
           "callsign": "Battery",
           "alias": "Martin",
-          "code": "7cd700cc-c990-48ed-892f-e5468de724c4///VOIDSTORM//a98c3e28-ad4a-4f89-bcd9-501464e960da",
+          "code": "0136BD17-316E-5A41-B1E3-460AA0AC09F9///VOIDSTORM-PMC///E856DB77-99E2-545F-99EA-F77995E11E1A",
           "corpro": "IPS-N",
           "frame": "TORTUGA",
           "mech": "House_Call"
@@ -129,7 +129,7 @@ export default {
         {
           "callsign": "Panther",
           "alias": "Louise Muselli",
-          "code": "4be26ce9-923b-4069-b6c9-76437d4be455///VOIDSTORM//056940c6-8d55-4190-8e85-57caa043cb1a",
+          "code": "067E192D-2DA6-5889-8496-C8D1BA5D0DDB///VOIDSTORM-PMC///BB6B6D8E-5B38-5C14-ACEF-2F4E231E11F8",
           "corpro": "SSC",
           "frame": "SWALLOWTAIL",
           "mech": "Firewall"
@@ -137,7 +137,7 @@ export default {
         {
           "callsign": "Swipe",
           "alias": "Cincin Becerra",
-          "code": "98ca9616-044e-4f87-b89b-aae4eb3387ec///VOIDSTORM//6f572259-6946-41bf-931a-e0543709e892",
+          "code": "8A918E8F-1A29-58EA-9304-32253CE40E06///VOIDSTORM-PMC///06953251-C16A-5E5F-AE23-65B8F3C4840E",
           "corpro": "HA",
           "frame": "BARBAROSSA",
           "mech": "Edd"
@@ -145,7 +145,7 @@ export default {
         {
           "callsign": "Sync",
           "alias": 'Rebecca',
-          "code": "d1fdf62e-d81e-4e10-97c8-df3bc4860117///VOIDSTORM//5a4254aa-9fa2-42ca-a077-8f5bfd1e1ad3",
+          "code": "880FC45D-67B7-5EBF-A507-C965499E13FC///VOIDSTORM-PMC///B00A236A-57AD-54BD-835F-19942C91F3FA",
           "corpro": "IPS-N",
           "frame": "NELSON",
           "mech": "Crescendo"
