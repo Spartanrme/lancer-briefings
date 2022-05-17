@@ -2,7 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\public\\events",
+    "\\public\\eventImages",
     "\\public\\icons",
     "\\public\\mechs",
     "\\public\\missions",
@@ -11,6 +11,6 @@
     "\\src\\assets",
     "\\src\\assets\\styles"
   ],
-  "SelectedNode": "\\public\\pilots\\Sync.md",
+  "SelectedNode": "\\public\\mechs\\Esperanza_Invicta.png",
   "PreviewInSolutionExplorer": false
 }

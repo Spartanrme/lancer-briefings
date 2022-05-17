@@ -27,7 +27,7 @@
         <h1>Events Log</h1>
       </div>
       <div class="section-content-container">
-        <Markdown :source="events" class="markdown" />
+          <Markdown :source="events" class="markdown" />
       </div>
     </section>
     <section class="section-container" id="pilots" style="width:894px; height:714px;">
@@ -200,12 +200,15 @@ export default {
       let self = this;
       let md = "";
 
-      if(self.options.eventsMarkdownPerMission){
-        md = `/events/${self.mission_slug}.md`
-      }
-      else {
-        md = "/events.md"
-      }
+      // One event log
+      md = "/events/events.md"
+
+      //if(self.options.eventsMarkdownPerMission){
+      //  md = `/events/${self.mission_slug}.md`
+      //}
+      //else {
+      //  md = "/events.md"
+      //}
 
       var client = new XMLHttpRequest();
       client.open('GET', md);
