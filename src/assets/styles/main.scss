@@ -25,6 +25,11 @@ $mission-partial: rgba(88, 34, 102, 1);
 $mission-success: rgba(34, 102, 98, 1);
 $mission-failure: rgba(176, 45, 45, 1);
 
+//Event List Text
+$text-event-header: rgba(255, 255, 255, 0.67);
+$text-event-value: rgba(255, 255, 255, 0.87);
+$text-event-code: rgba(255, 255, 255, 0.47);
+
 //Pilot Roster Text
 $text-pilot-header: rgba(255, 255, 255, 0.67);
 $text-pilot-value: rgba(255, 255, 255, 0.87);
@@ -378,6 +383,12 @@ section .section-header {
   -webkit-clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
 }
 
+.clipped-medium-backward-event {
+    width: 452px;
+    clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
+}
+
 .clipped-medium-backward-bio {
   width: 552px;
   clip-path: polygon(0 0, 500px 0, 552px 100%, 0% 100%);
@@ -480,6 +491,238 @@ section .section-header {
 .mission:hover {
   background-color: $highlight-hover !important;
   padding-left: 1em;
+}
+
+.event-list-container {
+    height: 666px;
+    overflow-y: scroll;
+}
+
+#events .event {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    column-gap: 1em;
+    height: 136px;
+    border-bottom: none;
+    z-index: 1;
+    cursor: pointer;
+
+    .event-loadout {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0px;
+    }
+
+    .mech-loadout {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0px;
+        text-align: right;
+    }
+
+    .event-portrait {
+        width: 104px;
+        height: 136px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .mech-portrait {
+        width: 104px;
+        height: 136px;
+        object-fit: cover;
+    }
+
+    h1 {
+        margin: 0px;
+        margin-bottom: 0.25em;
+        line-height: 1.5em;
+        font-family: "Raleway", sans-serif;
+        font-size: 10px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: $text-event-header;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin: 0%;
+        margin-bottom: 0.25em;
+        align-self: center;
+        font-family: "Big Shoulders Display", cursive;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: $text-event-value;
+    }
+
+    .code {
+        font-family: "Inconsolata", monospace;
+        font-weight: 400;
+        line-height: 1.25em;
+        font-size: 11px;
+        color: $text-event-code;
+        flex-grow: 2;
+    }
+}
+
+#events .event:last-child {
+    border-bottom: none;
+}
+
+.middle {
+    transition: 0.2s ease;
+    position: absolute;
+    text-align: center;
+    height: 136px;
+    background-color: $highlight-hover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    width: 0px;
+    margin-top: -153px;
+    margin-left: 1em;
+    z-index: -1;
+
+    .text {
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+    }
+}
+
+.event-wrapper {
+    position: relative;
+    border-bottom: 1px solid $primary;
+}
+
+.event-wrapper:last-child {
+    border-bottom: none;
+}
+
+.event-wrapper:hover .middle {
+    width: 375px;
+}
+
+.event-wrapper:active .middle,
+.event-wrapper.active .middle {
+    background-color: $highlight-active;
+    transition: 0.5s ease;
+}
+
+.o-modal > div:nth-child(2) {
+    position: absolute;
+    left: 50px;
+    top: 142px;
+    display: flex;
+    gap: 5em;
+}
+
+.event-modal {
+    ::-webkit-scrollbar {
+        width: 12px; /* width of the entire scrollbar */
+    }
+
+    ::-webkit-scrollbar-track {
+        background: none; /* color of the tracking area */
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: $primary; /* color of the scroll thumb */
+        border-radius: 20px; /* roundness of the scroll thumb */
+        border: 3px solid $secondary;
+        margin: 3px; /* creates padding around scroll thumb */
+    }
+
+    .event-header-container {
+        display: flex;
+    }
+
+    div .section-header {
+        background-color: $primary;
+        border-color: $primary;
+        height: 52px;
+        display: inline-flex;
+        gap: 15px;
+        padding-left: 16px;
+        margin-top: -38px !important;
+
+        h1 {
+            font-size: 26px;
+            margin: 0%;
+            align-self: center;
+            font-family: "Big Shoulders Display", cursive;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+    }
+
+    .rhombus-back {
+        transform: skew(0.785398rad) !important;
+        background-color: $primary;
+        border-color: $primary;
+        width: 40px;
+        height: 52px;
+        display: inline-block;
+        position: relative;
+        left: -25px;
+        top: -38px;
+    }
+
+    div.event {
+        background-color: $secondary;
+        border: 1px solid $primary;
+        margin-top: -38px;
+        width: calc(100% - 50px);
+        height: 662px;
+
+        div.markdown {
+            height: 662px;
+        }
+    }
+}
+
+.event-modal.portrait {
+    .event {
+        width: 600px;
+    }
+
+    img.portrait {
+        width: 600px;
+        height: 662px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .event-header-container {
+        display: flex;
+    }
+
+    div .section-header {
+        background-color: $primary;
+        border-color: $primary;
+        height: 52px;
+        display: inline-flex;
+        gap: 15px;
+        padding-left: 16px;
+        margin-top: -38px !important;
+    }
+
+    .rhombus-back {
+        transform: skew(0.785398rad) !important;
+        background-color: $primary;
+        border-color: $primary;
+        width: 40px;
+        height: 52px;
+        display: inline-block;
+        position: relative;
+        left: -25px;
+        top: -38px;
+    }
 }
 
 .pilot-list-container {

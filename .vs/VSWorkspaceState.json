@@ -3,14 +3,14 @@
     "",
     "\\public",
     "\\public\\eventImages",
-    "\\public\\icons",
+    "\\public\\events",
     "\\public\\mechs",
-    "\\public\\missions",
-    "\\public\\pilots",
     "\\src",
     "\\src\\assets",
-    "\\src\\assets\\styles"
+    "\\src\\assets\\styles",
+    "\\src\\components",
+    "\\src\\components\\layout"
   ],
-  "SelectedNode": "\\public\\mechs",
+  "SelectedNode": "\\src\\components\\PilotModal.vue",
   "PreviewInSolutionExplorer": false
 }

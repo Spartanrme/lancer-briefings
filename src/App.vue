@@ -27,7 +27,9 @@
         <h1>Events Log</h1>
       </div>
       <div class="section-content-container">
-          <Markdown :source="events" class="markdown" />
+          <div class="event-list-container">
+              <Event v-for="item in this.events" :key="item.slug" :event="item" />
+          </div>
       </div>
     </section>
     <section class="section-container" id="pilots" style="width:894px; height:714px;">
@@ -75,6 +77,7 @@
 import Header from './components/layout/Header.vue';
 import Footer from './components/layout/Footer.vue';
 import Mission from './components/Mission.vue';
+import Event from './components/Event.vue';
 import Pilot from './components/Pilot.vue';
 import Markdown from 'vue3-markdown-it';
 
@@ -83,6 +86,7 @@ export default {
     Header,
     Footer,
     Mission,
+    Event,
     Pilot,
     Markdown
   },
@@ -91,7 +95,14 @@ export default {
     return {
       "mission_slug": "003",
       "current_md": "",
-      "events": "",
+      "events": [
+            {
+                "name": "001",
+                "title": "HONG-COLEMAN DECLARES STATE OF EMERGENCY",
+                "subtitle": "In a press release held by a Hong-Coleman spokesperson (read more)...",
+                "clickable": true
+            }
+          ],
       "missions": [
         {
           "slug": "001",
@@ -171,7 +182,6 @@ export default {
 
   created() {
     this.loadMissionMarkdown()
-    this.loadEventsMarkdown()
   },
 
   computed: {
@@ -182,9 +192,6 @@ export default {
     selectMission(mission) {
       this.mission_slug = mission.slug;
       this.loadMissionMarkdown()
-      if(this.options.eventsMarkdownPerMission){
-        this.loadEventsMarkdown();
-      }
     },
     loadMissionMarkdown() {
       let self = this;
@@ -193,27 +200,6 @@ export default {
       client.open('GET', md);
       client.onreadystatechange = function () {
         self.current_md = client.responseText;
-      }
-      client.send();
-    },
-    loadEventsMarkdown() {
-      let self = this;
-      let md = "";
-
-      // One event log
-      md = "/events/events.md"
-
-      //if(self.options.eventsMarkdownPerMission){
-      //  md = `/events/${self.mission_slug}.md`
-      //}
-      //else {
-      //  md = "/events.md"
-      //}
-
-      var client = new XMLHttpRequest();
-      client.open('GET', md);
-      client.onreadystatechange = function () {
-        self.events = client.responseText;
       }
       client.send();
     }
