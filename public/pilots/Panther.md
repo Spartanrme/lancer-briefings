@@ -1,20 +1,20 @@
-# Current Status
+### Current Status
 Active
 
-# Date of Birth
+### Date of Birth
 October 4991U
 
-# Place of Birth
+### Place of Birth
 Perax, TiTech Territories
 
-# Years of Service
+### Years of Service
 Rookie
 
-# Prior Combat Experience
+### Prior Combat Experience
 Limited untrained experience
 
-# Training
+### Training
 VR Combat Training
 
-# Primary Skills
+### Primary Skills
 Electronic Warfare, Data Collection
