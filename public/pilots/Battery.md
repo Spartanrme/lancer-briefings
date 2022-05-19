@@ -14,5 +14,4 @@ Experienced
 Multiple
 
 ### Primary Skills
-Field Medicine
-Pre-fall Memes
+Field Medicine, Pre-fall Memes
