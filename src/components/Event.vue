@@ -5,7 +5,9 @@
 			<div class="event-body">
 				<div class="name">
 					<h2>{{ event.title }}</h2>
-					<h1>{{ event.subtitle }}</h1>
+					<h1><i>//{{ event.date }}</i></h1>
+					<h1>{{ event.subtitle }}...</h1>
+					<h1><strong>(Read more...)</strong></h1>
 				</div>
 			</div>
 		</div>
@@ -19,6 +21,7 @@
 			<div class="event-body">
 				<div class="name">
 					<h2>{{ event.title }}</h2>
+					<h1><i>//{{ event.date }}</i></h1>
 					<h1>{{ event.subtitle }}</h1>
 				</div>
 			</div>

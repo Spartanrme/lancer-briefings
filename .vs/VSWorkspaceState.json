@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\public\\eventImages",
     "\\public\\events",
     "\\public\\mechs",
+    "\\public\\missions",
     "\\src",
     "\\src\\assets",
     "\\src\\assets\\styles",
     "\\src\\components",
     "\\src\\components\\layout"
   ],
-  "SelectedNode": "\\public\\events\\001.md",
+  "SelectedNode": "\\src\\components\\Event.vue",
   "PreviewInSolutionExplorer": false
 }

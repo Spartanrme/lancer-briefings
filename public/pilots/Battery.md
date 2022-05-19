@@ -8,10 +8,11 @@ Unknown
 Unknown
 
 ### Years of Service
-Unknown
+Experienced
 
 ### Prior Combat Experience
 Multiple
 
 ### Primary Skills
 Field Medicine
+Pre-fall Memes

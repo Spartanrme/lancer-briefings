@@ -526,7 +526,7 @@ section .section-header {
     .event-portrait {
         width: 104px;
         height: 136px;
-        object-fit: cover;
+        object-fit: contain;
         object-position: top;
     }
 
@@ -604,7 +604,7 @@ section .section-header {
 }
 
 .event-wrapper:hover .middle {
-    width: 375px;
+    width: 355px; /* Width of hover animation */
 }
 
 .event-wrapper:active .middle,

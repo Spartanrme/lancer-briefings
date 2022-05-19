@@ -21,18 +21,18 @@
         </div>
       </div>
     </section>
-    <section class="section-container" id="events" style="width:435px; height:714px;">
+    <section class="section-container" id="events" style="width:373px; height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/events-icon.svg" />
         <h1>Events Log</h1>
       </div>
       <div class="section-content-container">
           <div class="event-list-container">
-              <Event v-for="item in this.events" :key="item.slug" :event="item" />
+              <Event v-for="item in this.events.slice().reverse()" :key="item.slug" :event="item" />
           </div>
       </div>
     </section>
-    <section class="section-container" id="pilots" style="width:894px; height:714px;">
+    <section class="section-container" id="pilots" style="width:794px; height:714px;">
       <div style="height:52px; overflow:hidden;">
         <div class="section-header clipped-medium-backward-pilot">
           <img src="/icons/pilot-icon.svg" />
@@ -98,9 +98,24 @@ export default {
       "events": [
             {
                 "name": "001",
+                "date": "NOV 5015U",
                 "title": "HONG-COLEMAN DECLARES STATE OF EMERGENCY",
-                "subtitle": "In a press release held by a Hong-Coleman spokesperson (read more)...",
+                "subtitle": "In a press release held by a Hong-Coleman spokesperson",
                 "clickable": true
+            },
+            {
+                "name": "002",
+                "date": "NOV 5015U",
+                "title": "Join the Hong-Coleman Security Force!",
+                "subtitle": "Contact a local representative near you!",
+                "clickable": false
+            },
+            {
+                "name": "003",
+                "date": "NOV 5015U",
+                "title": "Come on down to Brackstein's Batteries!",
+                "subtitle": "Power instabilites got ya' worried? Brackstein's got your back!",
+                "clickable": false
             }
           ],
       "missions": [
