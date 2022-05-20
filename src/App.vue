@@ -28,7 +28,15 @@
       </div>
       <div class="section-content-container">
           <div class="event-list-container">
-              <Event v-for="item in this.events.slice().reverse()" :key="item.slug" :event="item" />
+              <div class="fieldgroup">
+                  <input style="margin-left:10px;" type="checkbox" id="articleCheckbox" v-model="checked"><label for="articleCheckbox">SHOW ONLY ARTICLES</label><br>
+              </div>
+              <div v-if="!checked">
+                  <Event v-for="item in this.events.slice().reverse()" :key="item.slug" :event="item" />
+              </div>
+              <div v-else>
+                  <Event v-for="item in this.events.slice().reverse().filter(item => item.clickable == true)" :key="item.slug" :event="item" />
+              </div>
           </div>
       </div>
     </section>
@@ -95,26 +103,65 @@ export default {
     return {
       "mission_slug": "003",
       "current_md": "",
-      "events": [
+        "events": [
             {
                 "name": "001",
-                "date": "NOV 5015U",
-                "title": "HONG-COLEMAN DECLARES STATE OF EMERGENCY",
-                "subtitle": "In a press release held by a Hong-Coleman spokesperson",
-                "clickable": true
+                "date": "OCT 5015U",
+                "type": "Headline",
+                "title": "PRISON BREAK AND SHOOTOUT AT REDFORGE",
+                "subtitle": "LUIS CORT PRIME SUSPECT",
+                "source": "THE SURVEY SURVEY",
+                "image": "HC.png",
+                "clickable": false
             },
             {
                 "name": "002",
-                "date": "NOV 5015U",
-                "title": "Join the Hong-Coleman Security Force!",
-                "subtitle": "Contact a local representative near you!",
+                "date": "OCT 5015U",
+                "type": "ALERT",
+                "title": "REDFORGE UNDER LOCKDOWN AFTER TERRORIST ATTACKS",
+                "subtitle": "HONG-COLEMAN SECURITY FORCES ENACTING CHECKPOINTS AT ALL INGRESS/EGRESS POINTS",
+                "source": "CONSOLIDATED SOURCES",
+                "image": "ALERT.png",
                 "clickable": false
             },
             {
                 "name": "003",
                 "date": "NOV 5015U",
+                "type": "Article",
+                "title": "HONG-COLEMAN DECLARES STATE OF EMERGENCY",
+                "subtitle": "In a press release held by a Hong-Coleman spokesperson",
+                "source": "THE SURVEY SURVEY",
+                "image": "Explosion.png",
+                "clickable": true
+            },
+            {
+                "name": "004",
+                "date": "NOV 5015U",
+                "type": "AD",
+                "title": "Join the Hong-Coleman Security Force!",
+                "subtitle": "Contact a local representative near you!",
+                "source": "THE SURVEY SURVEY",
+                "image": "HC.png",
+                "clickable": false
+            },
+            {
+                "name": "005",
+                "date": "NOV 5015U",
+                "type": "AD",
                 "title": "Come on down to Brackstein's Batteries!",
                 "subtitle": "Power instabilites got ya' worried? Brackstein's got your back!",
+                "source": "CONSLIDATED SOURCES",
+                "image": "Battery.png",
+                "clickable": false
+            },
+            {
+                "name": "006",
+                "date": "NOV 5015U",
+                "type": "ALERT",
+                "title": "HC FLASH-FIRE CONSTELLATION OPERATIONAL AREA EXPANDING",
+                "subtitle": "F2C ORBITAL SUPPORT ENCROACHING 50MI OUT CLEARDAY BORDER",
+                "source": ".::ELINT//PROCESSED",
+                "image": "ALERT.png",
                 "clickable": false
             }
           ],
@@ -191,7 +238,8 @@ export default {
       },
       "options":{
         "eventsMarkdownPerMission": true
-      }
+      },
+      "checked" : false
     }
   },
 

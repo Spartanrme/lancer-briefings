@@ -498,12 +498,24 @@ section .section-header {
     overflow-y: scroll;
 }
 
+.fieldgroup {
+    display: flex;
+    align-content:center;
+}
+
+.fieldgroup input[type=checkbox] {
+}
+
+.fieldgroup label {
+    color: aliceblue
+}
+
 #events .event {
     display: flex;
     flex-direction: row;
     padding: 1em;
     column-gap: 1em;
-    height: 136px;
+    height: 156px;
     border-bottom: none;
     z-index: 1;
     cursor: pointer;
@@ -605,6 +617,8 @@ section .section-header {
 
 .event-wrapper:hover .middle {
     width: 355px; /* Width of hover animation */
+    margin-top: -175px; /* Starting height */
+    height: 170px; /* Total height */
 }
 
 .event-wrapper:active .middle,
