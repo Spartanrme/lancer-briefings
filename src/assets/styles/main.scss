@@ -615,6 +615,11 @@ section .section-header {
     border-bottom: none;
 }
 
+.event-wrapper:first-child {
+    border-top: solid;
+    border-top: 1px solid $primary;
+}
+
 .event-wrapper:hover .middle {
     width: 355px; /* Width of hover animation */
     margin-top: -175px; /* Starting height */
