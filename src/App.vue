@@ -120,7 +120,7 @@ export default {
                 "type": "ALERT",
                 "title": "REDFORGE UNDER LOCKDOWN AFTER TERRORIST ATTACKS",
                 "subtitle": "HONG-COLEMAN SECURITY FORCES ENACTING CHECKPOINTS AT ALL INGRESS/EGRESS POINTS",
-                "source": "CONSOLIDATED SOURCES",
+                "source": "CONSOLIDATED SRCS",
                 "image": "ALERT.png",
                 "clickable": false
             },
@@ -150,7 +150,7 @@ export default {
                 "type": "AD",
                 "title": "Come on down to Brackstein's Batteries!",
                 "subtitle": "Power instabilites got ya' worried? Brackstein's got your back!",
-                "source": "CONSLIDATED SOURCES",
+                "source": "CONSOLIDATED SRCS",
                 "image": "Battery.png",
                 "clickable": false
             },
