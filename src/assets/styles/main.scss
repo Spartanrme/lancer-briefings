@@ -515,7 +515,7 @@ section .section-header {
     flex-direction: row;
     padding: 1em;
     column-gap: 1em;
-    height: 156px;
+    height: 176px; /* Height of each event box. If you change this increase hover height */
     border-bottom: none;
     z-index: 1;
     cursor: pointer;
@@ -622,8 +622,8 @@ section .section-header {
 
 .event-wrapper:hover .middle {
     width: 355px; /* Width of hover animation */
-    margin-top: -175px; /* Starting height */
-    height: 170px; /* Total height */
+    margin-top: -195px; /* Starting height */
+    height: 190px; /* Total height */
 }
 
 .event-wrapper:active .middle,

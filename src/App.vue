@@ -168,8 +168,8 @@ export default {
                 "name": "007",
                 "date": "NOV 5015U",
                 "type": "INFO",
-                "title": "MERCURY-ONE CELEBRATES ANNIVERSARY",
-                "subtitle": "",
+                "title": "MERCURY-ONE CELEBRATES 20th ANNIVERSARY OF CONOP",
+                "subtitle": "Silverton Families praise M-1 personnel as example to all people of Perax to the capabilites of humans on the frontier. ",
                 "source": "M.O.O.N.",
                 "image": "ringStationCelebration.png",
                 "clickable": false
