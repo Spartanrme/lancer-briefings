@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\public\\mechs",
-    "\\public\\missions",
+    "\\public\\eventImages",
+    "\\public\\events",
     "\\public\\pilots",
     "\\src",
     "\\src\\assets",
@@ -11,6 +11,6 @@
     "\\src\\components",
     "\\src\\components\\layout"
   ],
-  "SelectedNode": "\\public\\pilots\\Panther.md",
+  "SelectedNode": "\\public\\events\\005.md",
   "PreviewInSolutionExplorer": false
 }

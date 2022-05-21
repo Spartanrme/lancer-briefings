@@ -163,6 +163,16 @@ export default {
                 "source": ".::ELINT//PROCESSED",
                 "image": "ALERT.png",
                 "clickable": false
+            },
+            {
+                "name": "007",
+                "date": "NOV 5015U",
+                "type": "INFO",
+                "title": "MERCURY-ONE CELEBRATES ANNIVERSARY",
+                "subtitle": "",
+                "source": "M.O.O.N.",
+                "image": "ringStationCelebration.png",
+                "clickable": false
             }
           ],
       "missions": [
