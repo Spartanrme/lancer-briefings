@@ -135,26 +135,6 @@ export default {
                 "clickable": true
             },
             {
-                "name": "004",
-                "date": "NOV 5015U",
-                "type": "AD",
-                "title": "Join the Hong-Coleman Security Force!",
-                "subtitle": "Contact a local representative near you!",
-                "source": "THE SURVEY SURVEY",
-                "image": "HC.png",
-                "clickable": false
-            },
-            {
-                "name": "005",
-                "date": "NOV 5015U",
-                "type": "AD",
-                "title": "Come on down to Brackstein's Batteries!",
-                "subtitle": "Power instabilites got ya' worried? Brackstein's got your back!",
-                "source": "CONSOLIDATED SRCS",
-                "image": "Battery.png",
-                "clickable": false
-            },
-            {
                 "name": "006",
                 "date": "NOV 5015U",
                 "type": "ALERT",
