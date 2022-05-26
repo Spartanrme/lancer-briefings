@@ -1,4 +1,4 @@
-## //Transcript from Opening Interview
+## // Transcript from Opening Interview
 
 Interviewer: OK, so you passed our security check, but I need to fill out some additional paperwork.  
 
@@ -36,4 +36,4 @@ Interviewer: I’m just going to put Demolitions
 
 Cincin: Ok, fine but just underline it in your notes.  Can I go ba-  
 
-## //Transcript Ends
+## // Transcript Ends
