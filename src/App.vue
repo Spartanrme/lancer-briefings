@@ -325,7 +325,7 @@ export default {
           "code": "8A918E8F-1A29-58EA-9304-32253CE40E06///VOIDSTORM-PMC",
           "corpro": "HA",
           "frame": "BARBAROSSA",
-          "mech": "Edd"
+          "mech": "Blammo"
         },
         {
           "callsign": "Sync",
