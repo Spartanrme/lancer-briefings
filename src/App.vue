@@ -21,7 +21,7 @@
         </div>
       </div>
     </section>
-    <section class="section-container" id="events" style="width:373px; height:714px;">
+    <section class="section-container" id="events" style="width:545px; height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/events-icon.svg" />
         <h1>Events Log</h1>
@@ -40,7 +40,7 @@
           </div>
       </div>
     </section>
-    <section class="section-container" id="pilots" style="width:794px; height:714px;">
+    <section class="section-container" id="pilots" style="width:620px; height:714px;">
       <div style="height:52px; overflow:hidden;">
         <div class="section-header clipped-medium-backward-pilot">
           <img src="/icons/pilot-icon.svg" />
@@ -146,12 +146,132 @@ export default {
             },
             {
                 "name": "007",
-                "date": "NOV 5015U",
+                "date": "NOV 27 5015U",
                 "type": "INFO",
                 "title": "MERCURY-ONE CELEBRATES 20th ANNIVERSARY OF CONOP",
                 "subtitle": "Silverton Families praise M-1 personnel as example to all people of Perax to the capabilites of humans on the frontier. ",
                 "source": "THE M.O.O.N.",
                 "image": "ringStationCelebration.png",
+                "clickable": false
+            },
+            {
+                "name": "008",
+                "date": "NOV 28 5015U",
+                "type": "INFO",
+                "title": "PIRACY ON THE RISE",
+                "subtitle": "Shipping delays expected as cargo ships traveling to the Perax system join into larger convoys in an effort to resist increased space piracy in the Perax system. ",
+                "source": "THE M.O.O.N.",
+                "image": "news.png",
+                "clickable": false
+            },
+            {
+                "name": "009",
+                "date": "NOV 30 5015U",
+                "type": "INFO",
+                "title": "BSC STUDY REVEALS PATTERN OF INCREASING AGGRESSION OF NATIVE PERAX CREATURES",
+                "subtitle": "New study by BrightStar scientists reveals increased aggression from native Perax fauna. The cause remains unknown, and the study suggests civilians not stray far from their settlements to best avoid an encounter with the native animals.",
+                "source": "THE BRIGHTSTAR POST",
+                "image": "bs.png",
+                "clickable": false
+            },
+            {
+                "name": "010",
+                "date": "DEC 01 5015U",
+                "type": "INFO",
+                "title": "DELAYED HA MARINES ARRIVE IN PERAX, JOIN GROWING FLEET LED BY HAS \"VALIANT\"",
+                "subtitle": "The stalled out ships of the HA 613th Legionary Marines were repaired today, thanks to logistical efforts from the HAS \"Valiant\" stationed in the outskirts of the Perax system. The marines have now joined with the growing HA fleet, alongside vast reserves of supplies that experts estimate will allow the fleet to maintain independent operations for several years.",
+                "source": "The Survey Survey",
+                "image": "hc.png",
+                "clickable": false
+            },
+            {
+                "name": "011",
+                "date": "DEC 02 5015U",
+                "type": "INFO",
+                "title": "TITECH MINIMUM WAGE LAW FAILS TO PASS",
+                "subtitle": "A law to increase the minimum wage in TiTech failed to pass today. The law's detractors stated that the proposal \"threatened the economic stability and longevity on Perax.\" The law's supporters are disappointed by the outcome, but remain resolute that other measures still under review will find more success.",
+                "source": "The TiTechTimes",
+                "image": "tt.png",
+                "clickable": false
+            },
+            {
+                "name": "012",
+                "date": "DEC 03 5015U",
+                "type": "INFO",
+                "title": "TERRORISTS RANSOM SILVERTON'S DELIZA SILVESTRI, DEMANDS SILVESTRI SUPERCARRIER \"ILLUSTRIOUS\"",
+                "subtitle": "The group responsible for the kidnapping of Deliza Silvestri, a prominent diplomatic figure in the Silverton Families, have made public ransom demands for the return of their captive. They have demanded the forfeiture of a Silvestri family supercarrier trade ship, the \"Illustrious\", in exchange for Deliza's safe return.",
+                "source": "THE SILVER SENTRY",
+                "image": "sf.png",
+                "clickable": false
+            },
+            {
+                "name": "013",
+                "date": "DEC 03 5015U",
+                "type": "INFO",
+                "title": "SSC REACHES AGREEMENT WITH PUC, PLANS FOR CATALOG STORE ON M1",
+                "subtitle": "The Smith-Shimano Corpro has concluded negotiations within the PUC to expand their business in the Perax system. The deal will allow SSC to open a storefront in Mercury One's Silver Ring, and permits them expanded trade allowances, in order to market their exclusive catalog of products to the Perax system.",
+                "source": "THE M.O.O.N.",
+                "image": "news.png",
+                "clickable": false
+            },
+            {
+                "name": "014",
+                "date": "DEC 05 5015U",
+                "type": "INFO",
+                "title": "CLEARDAY REJECTS HA OFFER OF CHARITY",
+                "subtitle": "Harrison Armory announced a program of providing relief aid to Clearday, supplying them with food, medicine, and clothes. Clearday officials are currently denying the Armory's offer, however, and informing their citizens to reject or destroy Armory supply drops.",
+                "source": "The New Dawn Gazette",
+                "image": "cd.png",
+                "clickable": false
+            },
+            {
+                "name": "015",
+                "date": "DEC 07 5015U",
+                "type": "INFO",
+                "title": "SF ANNOUNCES LT. COL. DE MELO TO LEAD NEW SPECIAL TASK FORCE",
+                "subtitle": "A press conference was held in the Silverton Families today to announce the creation of a special task force, headed by recent heroine Lt. Col. de Melo, for the purpose of protecting and securing Silverton Family assets on Perax against hostile action. Lt. Col. de Melo stated that her team would comprise \"the best the Silverton Families have to offer\", and would show \"no hesitation\" to act against any and all threats to the Silverton Family's colony.",
+                "source": "THE SILVER SENTRY",
+                "image": "sf.png",
+                "clickable": false
+            },
+            {
+                "name": "016",
+                "date": "DEC 08 5015U",
+                "type": "INFO",
+                "title": "ENTREPRENEUR SAUL DRAKE BEGINS FORMATION OF \"PERAX TRADERS' COALITION\"",
+                "subtitle": "Saul Drake, an enterprising businessman from Titanics Technologies, has put into motion plans to create the \"Perax Traders' Coalition.\" The Coalition is meant to bring together traders and merchants across Perax, and provide an independent network for distributing goods and negotiating trade deals with all Perax colonies, free of allegiance to any one government.",
+                "source": "The TiTechTimes",
+                "image": "tt.png",
+                "clickable": false
+            },
+            {
+                "name": "017",
+                "date": "DEC 10 5015U",
+                "type": "INFO",
+                "title": "HC JOURNALISTS UNCOVER BOMBING PLOT IN GAODAN, TERRORISTS ARRESTED, POSSIBLE LINK TO CLEARDAY",
+                "subtitle": "A field investigator of the Hong-Coleman Ministry of Journalism uncovered a planned terrorist bombing of several civilian structures in the recently operational Gaodan mines near Clearday. Hong-Coleman security teams cleared the building being used to organize this act of terrorism, and were able to dismantle the operation in the ensuing firefight. Evidence suggests the terrorists were Clearday citizens who were inflamed by the construction of the Gaodan mines. Clearday leaders claim no involvement in the planned attacks, stating that the citizens were acting independently, and demand the return of the arrested terrorists so they may stand trial.",
+                "source": "The Survey Survey",
+                "image": "hc.png",
+                "clickable": false
+            },
+            {
+                "name": "018",
+                "date": "DEC 11 5015U",
+                "type": "INFO",
+                "title": "GAODAN BOMBING THREAT PROMPTS FORMATION OF PERAX MISSILE INTERCEPT FORCE",
+                "subtitle": "The recently thwarted terrorist attack in Gaodan has prompted the Perax United Colonies members to unanimously agree to TiTech's proposed \"Perax Missile Intercept Force.\" The PMIF will be staffed, funded, and supplied by members from all of Perax's colonies, for the sole purpose of monitoring missile launches from low-orbit or the colony surface, and to disable any launch determined to threaten the Union Utopian Pillars.",
+                "source": "THE TiTechTimes",
+                "image": "tt.png",
+                "clickable": false
+            },
+            {
+                "name": "019",
+                "date": "DEC 13 5015U",
+                "type": "INFO",
+                "title": "WALFORD SHOCKED BY NEARBY ARTILLERY FIRE, HC CLAIMS TRAINING EXERCISES",
+                "subtitle": "Favor turns against Hong-Coleman among the Perax colonies after a shocking story was made public revealing the extent of their artillery line being established along their border with Titanics Technologies. The article, which was made by a joint effort between TiTech journalists and the Clearday \"New Dawn Gazette\", shows Hong-Coleman artillery fire being launched just outside of Walford's city limits, illuminating the dark night with flashes of detonating shells. Hong-Coleman has stated they were conducting a \"live-fire test\" to ensure the safety of their military personnel, and have denied further comment.",
+                "source": "The TiTechTimes",
+                "image": "tt.png",
                 "clickable": false
             }
           ],
@@ -176,7 +296,7 @@ export default {
         {
           "callsign": "Architect",
           "alias": "Victor Blayse",
-          "code": "BF5D1D96-BB30-5913-B1C1-A666AB76C1AE///VOIDSTORM-PMC///B5AEF9C6-CC60-5C42-839C-BCEB26033B88",
+          "code": "BF5D1D96-BB30-5913-B1C1-A666AB76C1AE///VOIDSTORM-PMC",
           "corpro": "IPS-N",
           "frame": "VLAD",
           "mech": "Esperanza_Invicta"
@@ -184,7 +304,7 @@ export default {
         {
           "callsign": "Battery",
           "alias": "Martin",
-          "code": "0136BD17-316E-5A41-B1E3-460AA0AC09F9///VOIDSTORM-PMC///E856DB77-99E2-545F-99EA-F77995E11E1A",
+          "code": "0136BD17-316E-5A41-B1E3-460AA0AC09F9///VOIDSTORM-PMC",
           "corpro": "IPS-N",
           "frame": "TORTUGA",
           "mech": "House_Call"
@@ -192,7 +312,7 @@ export default {
         {
           "callsign": "Panther",
           "alias": "Louise Muselli",
-          "code": "067E192D-2DA6-5889-8496-C8D1BA5D0DDB///VOIDSTORM-PMC///BB6B6D8E-5B38-5C14-ACEF-2F4E231E11F8",
+          "code": "067E192D-2DA6-5889-8496-C8D1BA5D0DDB///VOIDSTORM-PMC",
           "corpro": "SSC",
           "frame": "SWALLOWTAIL",
           "mech": "Firewall"
@@ -200,7 +320,7 @@ export default {
         {
           "callsign": "Swipe",
           "alias": "Cincin Becerra",
-          "code": "8A918E8F-1A29-58EA-9304-32253CE40E06///VOIDSTORM-PMC///06953251-C16A-5E5F-AE23-65B8F3C4840E",
+          "code": "8A918E8F-1A29-58EA-9304-32253CE40E06///VOIDSTORM-PMC",
           "corpro": "HA",
           "frame": "BARBAROSSA",
           "mech": "Edd"
@@ -208,7 +328,7 @@ export default {
         {
           "callsign": "Sync",
           "alias": 'Rebecca',
-          "code": "880FC45D-67B7-5EBF-A507-C965499E13FC///VOIDSTORM-PMC///B00A236A-57AD-54BD-835F-19942C91F3FA",
+          "code": "880FC45D-67B7-5EBF-A507-C965499E13FC///VOIDSTORM-PMC",
           "corpro": "IPS-N",
           "frame": "NELSON",
           "mech": "Crescendo"
@@ -217,7 +337,7 @@ export default {
       "header": {
         "planet": "Perax-1",
         "year": "5015u",
-        "month": "November",
+        "month": "December",
         "system": "Perax",
         "gate": "M'Goun",
         "ring": "ATLAS",

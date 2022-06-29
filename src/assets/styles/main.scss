@@ -621,9 +621,9 @@ section .section-header {
 }
 
 .event-wrapper:hover .middle {
-    width: 355px; /* Width of hover animation */
-    margin-top: -195px; /* Starting height */
-    height: 190px; /* Total height */
+    width: 525px; /* Width of hover animation */
+    margin-top: -155px; /* Starting height */
+    height: 150px; /* Total height */
 }
 
 .event-wrapper:active .middle,
@@ -855,7 +855,7 @@ section .section-header {
 }
 
 .pilot-wrapper:hover .middle {
-  width: 757px;
+  width: 600px;
 }
 
 .pilot-wrapper:active .middle,

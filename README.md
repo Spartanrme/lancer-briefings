@@ -63,7 +63,7 @@ This file contains the basic structure of the entire application - and houses th
 ## Hosting Recommendations
 
 I would strongly recommend using [Netlify](https://www.netlify.com/) for hosting, as there's no cost for hosting, has Continuous Deployment, and they'll provide a url. Register for an account, and click the `New Site from Git` button.  
-On the next page, pick the git service you used to fork this repo with, and authenticate. On the next page, select the `lancer-briefings` repository. If you can't see the repository listed on the page, click the `Can’t see your repo here? Configure the Netlify app on <git site>` link at the bottom of the page.  
+On the next page, pick the git service you used to fork this repo with, and authenticate. On the next page, select the `lancer-briefings` repository. If you can't see the repository listed on the page, click the `Can't see your repo here? Configure the Netlify app on <git site>` link at the bottom of the page.  
 Finally, make sure the branch being deployed is `master`, the `base directory` field is blank, the `build command` is `npm run build`, and the publish directory is `dist`. 
 
 Once the site builds remotely, click on the link provided in the `site overview` tab and make sure everything looks right.

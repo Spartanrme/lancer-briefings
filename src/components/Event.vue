@@ -1,6 +1,6 @@
 <template>
 	<div v-if="event.clickable" class="event-wrapper" @click="eventModal">
-		<div class="event">
+		<div style="min-height: 100px; height: 100%;" class="event">
 			<img :src="eventPortrait" class="event-portrait" />
 			<div class="event-body">
 				<div class="name">
@@ -17,7 +17,7 @@
 		</div>
 	</div>
 	<div v-else class="event-wrapper">
-		<div class="event">
+		<div style="min-height: 100px; height: 100%;" class="event">
 			<img :src="eventPortrait" class="event-portrait" />
 			<div class="event-body">
 				<div class="name">
