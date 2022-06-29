@@ -75,9 +75,6 @@
       </filter>
     </defs>
   </svg>
-  <audio autoplay>
-    <source src="/startup.ogg" type="audio/ogg" />
-  </audio>
   <Footer/>
 </template>
 

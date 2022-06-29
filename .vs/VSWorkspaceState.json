@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\public\\eventImages",
     "\\public\\events",
+    "\\public\\missions",
     "\\public\\pilots",
     "\\src",
     "\\src\\assets",
@@ -11,5 +11,6 @@
     "\\src\\components",
     "\\src\\components\\layout"
   ],
+  "SelectedNode": "\\src\\assets\\styles\\main.scss",
   "PreviewInSolutionExplorer": false
 }
