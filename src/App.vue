@@ -289,7 +289,7 @@ export default {
         {
           "slug": "003",
           "name": "RETRIEVE",
-          "status": "start"
+          "status": "success"
           },
       ],
       "pilots": [
