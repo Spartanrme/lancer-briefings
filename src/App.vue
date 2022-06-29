@@ -101,7 +101,7 @@ export default {
 
   data() {
     return {
-      "mission_slug": "003",
+      "mission_slug": "004",
       "current_md": "",
         "events": [
             {
@@ -291,6 +291,11 @@ export default {
           "name": "RETRIEVE",
           "status": "success"
           },
+        {
+          "slug": "004",
+          "name": "EXTRACT",
+          "status": "start"
+          }
       ],
       "pilots": [
         {
