@@ -270,6 +270,66 @@ export default {
                 "source": "The TiTechTimes",
                 "image": "tt.png",
                 "clickable": false
+            },
+            {
+                "name": "020",
+                "date": "DEC 24 5015U",
+                "type": "INFO",
+                "title": "IPS-N Contracted to Protect Interstellar Trade Routes in Response to Increasing Piracy",
+                "subtitle": "",
+                "source": "THE M.O.O.N.",
+                "image": "news.png",
+                "clickable": false
+            },
+            {
+                "name": "021",
+                "date": "DEC 25 5015U",
+                "type": "INFO",
+                "title": "Shoushan Han Grants Official Pardon to Onodera Oniwa, Welcomed Back Into Service",
+                "subtitle": "",
+                "source": "The Survey Survey",
+                "image": "hc.png",
+                "clickable": false
+            },
+            {
+                "name": "022",
+                "date": "DEC 26 5015U",
+                "type": "INFO",
+                "title": "Smith-Shimano Enters Talks with Silverton Families, Plans for Perax Outpost Colony",
+                "subtitle": "",
+                "source": "THE SILVER SENTRY",
+                "image": "sf.png",
+                "clickable": false
+            },
+            {
+                "name": "023",
+                "date": "DEC 27 5015U",
+                "type": "INFO",
+                "title": "Silverton Families Enact \"Perax Galactic Outreach Protocols and Procedures\" Act, TiTech's Roman Castillo Decries as Violation of Perax Foreign Affairs Accords",
+                "subtitle": "",
+                "source": "The TiTechTimes",
+                "image": "tt.png",
+                "clickable": false
+            },
+            {
+                "name": "024",
+                "date": "DEC 30 5015U",
+                "type": "INFO",
+                "title": "BrightStar's Rokurou Masuda and Hong-Coleman's Shoushan Han Hold Private Meeting, Rumors of BrightStar Entering Escalating Conflict on Perax",
+                "subtitle": "",
+                "source": "THE NEW DAWN GAZETTE",
+                "image": "cd.png",
+                "clickable": false
+            },
+            {
+                "name": "025",
+                "date": "JAN 1 5016U",
+                "type": "INFO",
+                "title": "\"Planet Pacifier\" Mohammad Ashok Joins Harrison Armory 613th Fleet, Claims Imminent Beast Hunts as Charitable Service to Colonies",
+                "subtitle": "",
+                "source": "THE M.O.O.N.",
+                "image": "news.png",
+                "clickable": false
             }
           ],
         "missions": [
@@ -348,8 +408,8 @@ export default {
       ],
       "header": {
         "planet": "Perax-1",
-        "year": "5015u",
-        "month": "December",
+        "year": "5016u",
+        "month": "January",
         "system": "Perax",
         "gate": "M'Goun",
         "ring": "ATLAS",
