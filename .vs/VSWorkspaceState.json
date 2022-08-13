@@ -2,12 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\src",
-    "\\src\\assets",
-    "\\src\\assets\\styles",
-    "\\src\\components",
-    "\\src\\components\\layout"
+    "\\public\\mechs",
+    "\\public\\missions",
+    "\\src"
   ],
-  "SelectedNode": "\\public\\planet.webm",
+  "SelectedNode": "\\public\\missions\\006.md",
   "PreviewInSolutionExplorer": false
 }
