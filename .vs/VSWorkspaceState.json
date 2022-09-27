@@ -2,12 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\public",
+    "\\public\\events",
     "\\src",
     "\\src\\assets",
     "\\src\\assets\\styles",
     "\\src\\components",
     "\\src\\components\\layout"
   ],
-  "SelectedNode": "\\public\\planet.webm",
   "PreviewInSolutionExplorer": false
 }
