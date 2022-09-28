@@ -56,17 +56,7 @@
                       </select>
                   </form>
               </div>
-              <div v-if="monthSelected == 0 && yearSelected == 0">
-                  <Event v-for="item in this.events.slice().reverse()" :key="item.slug" :event="item" />
-              </div>
-              <div v-else>
-                  <div v-if="monthSelected != 0">
-                      <Event v-for="item in this.events.slice().reverse().filter(item => item.date.startsWith(monthSelected))" :key="item.slug" :event="item" />
-                  </div>
-                  <div v-if="yearSelected != 0">
-                      <Event v-for="item in this.events.slice().reverse().filter(item => item.date.includes(yearSelected))" :key="item.slug" :event="item" />
-                  </div>
-              </div>
+              <Event v-for="item in eventFilter(monthSelected, yearSelected)" :key="item.slug" :event="item" />
           </div>
       </div>
     </section>
@@ -226,6 +216,19 @@ export default {
   },
 
   methods: {
+      eventFilter(monthSelected, yearSelected) {
+        if (monthSelected != 0 && yearSelected != 0) {
+            var byYear = Object.values(events.events).slice().reverse().filter(x => x.date.includes(yearSelected));
+            return byYear.filter(y => y.date.startsWith(monthSelected));
+        }
+        if (monthSelected != 0) {
+            return Object.values(events.events).slice().reverse().filter(x => x.date.startsWith(monthSelected));
+        }
+        if (yearSelected != 0) {
+            return Object.values(events.events).slice().reverse().filter(x => x.date.includes(yearSelected));
+        }
+          return Object.values(events.events).slice().reverse();
+    },
     selectMission(mission) {
       this.mission_slug = mission.slug;
       this.loadMissionMarkdown()
