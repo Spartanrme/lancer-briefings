@@ -56,7 +56,9 @@
                       </select>
                   </form>
               </div>
-              <Event v-for="item in eventFilter(monthSelected, yearSelected)" :key="item.slug" :event="item" />
+              <div>
+                  <Event v-for="item in eventFilter(monthSelected, yearSelected)" :key="item.slug" :event="item" />
+              </div>
           </div>
       </div>
     </section>
