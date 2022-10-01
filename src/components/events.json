@@ -8,7 +8,8 @@
       "subtitle": "LUIS CORT PRIME SUSPECT",
       "source": "THE SURVEY SURVEY",
       "image": "HC.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "002",
@@ -18,7 +19,8 @@
       "subtitle": "HONG-COLEMAN SECURITY FORCES ENACTING CHECKPOINTS AT ALL INGRESS/EGRESS POINTS",
       "source": "CONSOLIDATED SRCS",
       "image": "ALERT.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "003",
@@ -28,7 +30,8 @@
       "subtitle": "In a press release held by a Hong-Coleman spokesperson",
       "source": "THE SURVEY SURVEY",
       "image": "Explosion.png",
-      "clickable": true
+      "clickable": true,
+      "new": false
     },
     {
       "name": "006",
@@ -38,7 +41,8 @@
       "subtitle": "F2C ORBITAL SUPPORT ENCROACHING 50MI OUT CLEARDAY BORDER",
       "source": ".::ELINT//PROCESSED",
       "image": "ALERT.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "007",
@@ -48,7 +52,8 @@
       "subtitle": "Silverton Families praise M-1 personnel as example to all people of Perax to the capabilites of humans on the frontier. ",
       "source": "THE M.O.O.N.",
       "image": "ringStationCelebration.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "008",
@@ -58,7 +63,8 @@
       "subtitle": "Shipping delays expected as cargo ships traveling to the Perax system join into larger convoys in an effort to resist increased space piracy in the Perax system. ",
       "source": "THE M.O.O.N.",
       "image": "news.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "009",
@@ -68,7 +74,8 @@
       "subtitle": "New study by BrightStar scientists reveals increased aggression from native Perax fauna. The cause remains unknown, and the study suggests civilians not stray far from their settlements to best avoid an encounter with the native animals.",
       "source": "THE BRIGHTSTAR POST",
       "image": "bs.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "010",
@@ -78,7 +85,8 @@
       "subtitle": "The stalled out ships of the HA 613th Legionary Marines were repaired today, thanks to logistical efforts from the HAS \"Valiant\" stationed in the outskirts of the Perax system. The marines have now joined with the growing HA fleet, alongside vast reserves of supplies that experts estimate will allow the fleet to maintain independent operations for several years.",
       "source": "The Survey Survey",
       "image": "hc.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "011",
@@ -88,7 +96,8 @@
       "subtitle": "A law to increase the minimum wage in TiTech failed to pass today. The law's detractors stated that the proposal \"threatened the economic stability and longevity on Perax.\" The law's supporters are disappointed by the outcome, but remain resolute that other measures still under review will find more success.",
       "source": "The TiTechTimes",
       "image": "tt.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "012",
@@ -98,7 +107,8 @@
       "subtitle": "The group responsible for the kidnapping of Deliza Silvestri, a prominent diplomatic figure in the Silverton Families, have made public ransom demands for the return of their captive. They have demanded the forfeiture of a Silvestri family supercarrier trade ship, the \"Illustrious\", in exchange for Deliza's safe return.",
       "source": "THE SILVER SENTRY",
       "image": "sf.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "013",
@@ -108,7 +118,8 @@
       "subtitle": "The Smith-Shimano Corpro has concluded negotiations within the PUC to expand their business in the Perax system. The deal will allow SSC to open a storefront in Mercury One's Silver Ring, and permits them expanded trade allowances, in order to market their exclusive catalog of products to the Perax system.",
       "source": "THE M.O.O.N.",
       "image": "news.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "014",
@@ -118,7 +129,8 @@
       "subtitle": "Harrison Armory announced a program of providing relief aid to Clearday, supplying them with food, medicine, and clothes. Clearday officials are currently denying the Armory's offer, however, and informing their citizens to reject or destroy Armory supply drops.",
       "source": "The New Dawn Gazette",
       "image": "cd.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "015",
@@ -128,7 +140,8 @@
       "subtitle": "A press conference was held in the Silverton Families today to announce the creation of a special task force, headed by recent heroine Lt. Col. de Melo, for the purpose of protecting and securing Silverton Family assets on Perax against hostile action. Lt. Col. de Melo stated that her team would comprise \"the best the Silverton Families have to offer\", and would show \"no hesitation\" to act against any and all threats to the Silverton Family's colony.",
       "source": "THE SILVER SENTRY",
       "image": "sf.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "016",
@@ -138,7 +151,8 @@
       "subtitle": "Saul Drake, an enterprising businessman from Titanics Technologies, has put into motion plans to create the \"Perax Traders' Coalition.\" The Coalition is meant to bring together traders and merchants across Perax, and provide an independent network for distributing goods and negotiating trade deals with all Perax colonies, free of allegiance to any one government.",
       "source": "The TiTechTimes",
       "image": "tt.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "017",
@@ -148,7 +162,8 @@
       "subtitle": "A field investigator of the Hong-Coleman Ministry of Journalism uncovered a planned terrorist bombing of several civilian structures in the recently operational Gaodan mines near Clearday. Hong-Coleman security teams cleared the building being used to organize this act of terrorism, and were able to dismantle the operation in the ensuing firefight. Evidence suggests the terrorists were Clearday citizens who were inflamed by the construction of the Gaodan mines. Clearday leaders claim no involvement in the planned attacks, stating that the citizens were acting independently, and demand the return of the arrested terrorists so they may stand trial.",
       "source": "The Survey Survey",
       "image": "hc.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "018",
@@ -158,7 +173,8 @@
       "subtitle": "The recently thwarted terrorist attack in Gaodan has prompted the Perax United Colonies members to unanimously agree to TiTech's proposed \"Perax Missile Intercept Force.\" The PMIF will be staffed, funded, and supplied by members from all of Perax's colonies, for the sole purpose of monitoring missile launches from low-orbit or the colony surface, and to disable any launch determined to threaten the Union Utopian Pillars.",
       "source": "THE TiTechTimes",
       "image": "tt.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "019",
@@ -168,17 +184,19 @@
       "subtitle": "Favor turns against Hong-Coleman among the Perax colonies after a shocking story was made public revealing the extent of their artillery line being established along their border with Titanics Technologies. The article, which was made by a joint effort between TiTech journalists and the Clearday \"New Dawn Gazette\", shows Hong-Coleman artillery fire being launched just outside of Walford's city limits, illuminating the dark night with flashes of detonating shells. Hong-Coleman has stated they were conducting a \"live-fire test\" to ensure the safety of their military personnel, and have denied further comment.",
       "source": "The TiTechTimes",
       "image": "tt.png",
-      "clickable": false
+      "clickable": false,
+      "new": false
     },
     {
       "name": "020",
       "date": "DEC 24 5015U",
       "type": "INFO",
       "title": "IPS-N Contracted to Protect Interstellar Trade Routes in Response to Increasing Piracy",
-      "subtitle": "",
-      "source": "THE M.O.O.N.",
+      "subtitle": "Grave reports are on the rise regarding increasing frequency and brutality of piracy along Perax's interstellar shipping corridors. In response to the rising need to protect convoys, the Silverton families has contracted IPS-N through the 'Perax Galactic Outreach Protocols and Procedures' to assist in defending Perax's most traversed routes. \"Although we may live in uncertain times, The Silverton Families is committed to ensuring the saftey of our brave traders. We believe IPS-N's considerable experience in these matters will ensure their saftey and security\" said Deliza Silvestri in a recent comment.",
+      "source": "The Silver Sentry",
       "image": "news.png",
-      "clickable": false
+      "clickable": false,
+      "new": true
     },
     {
       "name": "021",
@@ -188,47 +206,129 @@
       "subtitle": "",
       "source": "The Survey Survey",
       "image": "hc.png",
-      "clickable": false
+      "clickable": false,
+      "new": true
     },
     {
       "name": "022",
       "date": "DEC 26 5015U",
       "type": "INFO",
       "title": "Smith-Shimano Enters Talks with Silverton Families, Plans for Perax Outpost Colony",
-      "subtitle": "",
+      "subtitle": "\"We believe The Silverton Families are the perfect choice for Smith-Shimano's expansion into Perax. We look forward to this prosperous relationship.' \" said an SSC representative in a recent press release.",
       "source": "THE SILVER SENTRY",
       "image": "sf.png",
-      "clickable": false
+      "clickable": false,
+      "new": true
     },
     {
       "name": "023",
       "date": "DEC 27 5015U",
       "type": "INFO",
       "title": "Silverton Families Enact \"Perax Galactic Outreach Protocols and Procedures\" Act, TiTech's Roman Castillo Decries as Violation of Perax Foreign Affairs Accords",
-      "subtitle": "",
+      "subtitle": "\"The Silverton Families have committed a clear violation of the Foreign Affaris Accords.\" said TiTech LCEO Roman Castillo in an interview. \"Bringing in foreign interests is a dangerous game they're playing. I am in talks currently with possible options to levy against The Silvertons.\"",
       "source": "The TiTechTimes",
       "image": "tt.png",
-      "clickable": false
+      "clickable": false,
+      "new": true
     },
     {
       "name": "024",
       "date": "DEC 30 5015U",
       "type": "INFO",
       "title": "BrightStar's Rokurou Masuda and Hong-Coleman's Shoushan Han Hold Private Meeting, Rumors of BrightStar Entering Escalating Conflict on Perax",
-      "subtitle": "",
+      "subtitle": "Both LCEOs declined to comment regarding rumors.",
       "source": "THE NEW DAWN GAZETTE",
       "image": "cd.png",
-      "clickable": false
+      "clickable": false,
+      "new": true
     },
     {
       "name": "025",
       "date": "JAN 1 5016U",
       "type": "INFO",
       "title": "\"Planet Pacifier\" Mohammad Ashok Joins Harrison Armory 613th Fleet, Claims Imminent Beast Hunts as Charitable Service to Colonies",
-      "subtitle": "",
+      "subtitle": "Roman Castillo points fingers at Silverton Families for \"Opening the floodgates\" in regards to foreign intervention.",
       "source": "THE M.O.O.N.",
       "image": "news.png",
-      "clickable": false
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "026",
+      "date": "JAN 14 5016U",
+      "type": "INFO",
+      "title": "Third Flyby of Unflagged Aerial Units Prompts Another Clearday Alarm",
+      "subtitle": "Clearday Defense Agency has publicy denouced recent flybys near Clearday borders as a blatant attempt at provocation. Although the CDA has not made public which colony they believe are instigating the flybys, the CDA has stated they are committing to strengthening Clearday's airspace.'",
+      "source": "The New Dawn Gazette",
+      "image": "cd.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "027",
+      "date": "JAN 18 5016U",
+      "type": "INFO",
+      "title": "Infamous hacker arrested, sentenced to face trail 'Soon'",
+      "subtitle": "Agents of Silverton Office of Market Investigations Reveal Evidence Identifying BrightStar Citizen Kokoro Sato as Hacker Responsible for Dozens of Security Breaches Over Past Decade; Sato to Face Trial in Silverton Courts within the week.",
+      "source": "The Silver Sentry",
+      "image": "sf.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "028",
+      "date": "JAN 19 5016U",
+      "type": "INFO",
+      "title": "Hacker Kokoro Sato Evades BrightStar Law Enforcement, Silverton Claims BSC Aiding and Abetting",
+      "subtitle": "\"Evidence has shown Brightstar aided in the escape of Kokoro Sato, a criminal wanted by Silverton Families for cybercrimes.\" said chief security officer Ellis Gregory. \"We've reached out to our BSC counterparts, however they are refusing to cooperate.\" Ellis declined to comment further, citing the investigation was still ongoing.",
+      "source": "The Silver Sentry",
+      "image": "sf.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "029",
+      "date": "JAN 20 5016U",
+      "type": "INFO",
+      "title": "Hong-Coleman Announces Development of New \"ECHO-Pattern\" Satellite Network to Enhance Cyber-Security",
+      "subtitle": "Hong-Coleman has announced the launch of their new ECHO-Pattern satellite network was a grand success. The state of the art network will provide secure communications that are `near uncrackable` while also providing improved performance to existing systems.",
+      "source": "The Survey Survey",
+      "image": "hc.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "030",
+      "date": "JAN 20 5016U",
+      "type": "INFO",
+      "title": "Action from Armory 6th Expeditionary Fleet! Pirate Asteroid Base Discovered, Obliterated, Armory Starting to Rebuild Remains to Provide Harbor for Fleet Vessels",
+      "subtitle": "",
+      "source": "HA Press Release",
+      "image": "news.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "031",
+      "date": "JAN 21 5016U",
+      "type": "INFO",
+      "title": "Silverton Supplies Raided Again! Silverton Plagued by Raiders, Pirates, Internal Factions Push for Greater Isolation, Consolidate and Protect Deliveries/Borders",
+      "subtitle": "Maxentius Buteo of the growing 'Silver Fist' party spoke out at a rally today: \"Enough is enough. It's time for The Silverton Families to to focus first on ourselves. The other Perax colonies have proven to us time and time again that when push comes to shove, they recoil on honoring their deals. The Silverton Families should no longer abide by dead agreeements that were never made with our best interests in mind.'\"",
+      "source": "The Silver Sentry",
+      "image": "sf.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "032",
+      "date": "JAN 23 5016U",
+      "type": "INFO",
+      "title": " Clearday Accused of Affording Wanted Persons Safe Harbor Behind Their Walls, Clearday Claims \"All Are Welcome!\"",
+      "subtitle": "\"Clearday has sent a clear message with their recent actions.\" said Celina Casella in a recent statement. \"Clearday has refused extradition wanted criminals. Safe havens for criminals have no place on Perax, we will be speaking to the other colonies on this matter.\"",
+      "source": "The Silver Sentry",
+      "image": "sf.png",
+      "clickable": false,
+      "new": true
     }
   ]
 }

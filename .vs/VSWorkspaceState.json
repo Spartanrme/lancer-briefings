@@ -2,7 +2,6 @@
   "ExpandedNodes": [
     "",
     "\\public",
-<<<<<<< HEAD
     "\\public\\events",
     "\\src",
     "\\src\\assets",
@@ -10,12 +9,5 @@
     "\\src\\components",
     "\\src\\components\\layout"
   ],
-=======
-    "\\public\\mechs",
-    "\\public\\missions",
-    "\\src"
-  ],
-  "SelectedNode": "\\public\\missions\\006.md",
->>>>>>> 13ad7c3142bc160a10b9990c8c2e54e67fbaa85f
   "PreviewInSolutionExplorer": false
 }

@@ -47,17 +47,23 @@
                           <option value="NOV">November</option>
                           <option value="DEC">December</option>
                       </select>
-                      <label for="articleMonth">YEAR: </label>
+                      <label for="articleMonth">  YEAR: </label>
                       <select style="margin-left:10px;" id="articleYear" name="articleYear" v-model="yearSelected">
                           <option disabled>Select One</option>
                           <option value="0">All</option>
                           <option value="5015U">5015U</option>
                           <option value="5016U">5016U</option>
                       </select>
+                      <label for="showNew">  SHOW: </label>
+                      <select style="margin-left:10px;" id="showNew" name="showNew" v-model="showSelected">
+                          <option disabled>Select One</option>
+                          <option value="0">All</option>
+                          <option value="1" selected>ONLY NEW</option>
+                      </select>
                   </form>
               </div>
               <div>
-                  <Event v-for="item in eventFilter(monthSelected, yearSelected)" :key="item.slug" :event="item" />
+                  <Event v-for="item in eventFilter(monthSelected, yearSelected, showSelected)" :key="item.slug" :event="item" />
               </div>
           </div>
       </div>
@@ -122,7 +128,7 @@ export default {
 
   data() {
     return {
-      "mission_slug": "004",
+      "mission_slug": "007",
       "current_md": "",
       "events": events.events,
       "missions": [
@@ -154,7 +160,12 @@ export default {
         {
             "slug": "006",
             "name": "EXTERMINATE",
-            "status": "start"
+            "status": "success"
+        },
+        {
+            "slug": "007",
+            "name": "ESCORT",
+            "status": "success"
         }
       ],
       "pilots": [
@@ -215,7 +226,8 @@ export default {
         "eventsMarkdownPerMission": true
       },
       "monthSelected": 0,
-      "yearSelected": 0
+      "yearSelected": 0,
+      "showSelected": 1
     }
   },
 
@@ -228,18 +240,23 @@ export default {
   },
 
   methods: {
-      eventFilter(monthSelected, yearSelected) {
+      eventFilter(monthSelected, yearSelected, showSelected) {
+        var eventArr = Object.values(events.events).slice().reverse();
+        if (showSelected == 1) {
+            eventArr = eventArr.filter(x => x.new == true);
+        } else eventArr.filter(x => x.new == false);
+
         if (monthSelected != 0 && yearSelected != 0) {
-            var byYear = Object.values(events.events).slice().reverse().filter(x => x.date.includes(yearSelected));
+            var byYear = eventArr.filter(x => x.date.includes(yearSelected));
             return byYear.filter(y => y.date.startsWith(monthSelected));
         }
         if (monthSelected != 0) {
-            return Object.values(events.events).slice().reverse().filter(x => x.date.startsWith(monthSelected));
+            return eventArr.filter(x => x.date.startsWith(monthSelected));
         }
         if (yearSelected != 0) {
-            return Object.values(events.events).slice().reverse().filter(x => x.date.includes(yearSelected));
+            return eventArr.filter(x => x.date.includes(yearSelected));
         }
-          return Object.values(events.events).slice().reverse();
+        return eventArr;
     },
     selectMission(mission) {
       this.mission_slug = mission.slug;
