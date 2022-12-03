@@ -128,7 +128,7 @@ export default {
 
   data() {
     return {
-      "mission_slug": "007",
+      "mission_slug": "008",
       "current_md": "",
       "events": events.events,
       "missions": [
@@ -166,6 +166,11 @@ export default {
             "slug": "007",
             "name": "ESCORT",
             "status": "success"
+        },
+        {
+            "slug": "008",
+            "name": "SUPPORT",
+            "status": "start"
         }
       ],
       "pilots": [
