@@ -329,7 +329,7 @@
       "image": "sf.png",
       "clickable": false,
       "new": false
-    }
+    },
     {
       "name": "033",
       "date": "FEB 07 5016U",
@@ -340,7 +340,7 @@
       "image": "tt.png",
       "clickable": false,
       "new": true
-    }
+    },
     {
       "name": "034",
       "date": "FEB 09 5016U",
@@ -351,7 +351,7 @@
       "image": "sf.png",
       "clickable": false,
       "new": true
-    }
+    },
     {
       "name": "035",
       "date": "FEB 10 5016U",
@@ -362,7 +362,7 @@
       "image": "news.png",
       "clickable": false,
       "new": true
-    }
+    },
     {
       "name": "036",
       "date": "FEB 14 5016U",
@@ -373,7 +373,7 @@
       "image": "news.png",
       "clickable": false,
       "new": true
-    }
+    },
     {
       "name": "037",
       "date": "FEB 15 5016U",
@@ -384,7 +384,7 @@
       "image": "sf.png",
       "clickable": false,
       "new": true
-    }
+    },
     {
       "name": "038",
       "date": "FEB 15 5016U",
@@ -395,7 +395,7 @@
       "image": "news.png",
       "clickable": false,
       "new": true
-    }
+    },
     {
       "name": "039",
       "date": "FEB 16 5016U",
