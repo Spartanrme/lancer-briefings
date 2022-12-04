@@ -3,6 +3,7 @@
     "",
     "\\public",
     "\\public\\events",
+    "\\public\\mechs",
     "\\public\\missions",
     "\\src",
     "\\src\\assets",
@@ -10,6 +11,6 @@
     "\\src\\components",
     "\\src\\components\\layout"
   ],
-  "SelectedNode": "\\public\\missions\\008.md",
+  "SelectedNode": "\\public\\mechs\\Kachunka.png",
   "PreviewInSolutionExplorer": false
 }

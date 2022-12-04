@@ -184,7 +184,7 @@ export default {
         },
         {
             "callsign": "Battery",
-            "alias": "Martin",
+            "alias": "Martin Snyder",
             "code": "0136BD17-316E-5A41-B1E3-460AA0AC09F9///VOIDSTORM-PMC",
             "corpro": "IPS-N",
             "frame": "TORTUGA",
