@@ -154,7 +154,7 @@ export default {
         },
         {
             "slug": "005",
-            "name": "DISTRUPT",
+            "name": "DISRUPT",
             "status": "success"
         },
         {
