@@ -195,24 +195,24 @@ export default {
             "alias": "Louise Muselli",
             "code": "067E192D-2DA6-5889-8496-C8D1BA5D0DDB///VOIDSTORM-PMC",
             "corpro": "SSC",
-            "frame": "SWALLOWTAIL",
-            "mech": "Firewall"
+            "frame": "EMPORER",
+            "mech": "Nightingale"
         },
         {
             "callsign": "Swipe",
             "alias": "Cincin Becerra",
             "code": "8A918E8F-1A29-58EA-9304-32253CE40E06///VOIDSTORM-PMC",
             "corpro": "HA",
-            "frame": "BARBAROSSA",
-            "mech": "Blammo"
+            "frame": "PEGASUS",
+            "mech": "Kachunka"
         },
         {
             "callsign": "Sync",
             "alias": 'Rebecca',
             "code": "880FC45D-67B7-5EBF-A507-C965499E13FC///VOIDSTORM-PMC",
             "corpro": "IPS-N",
-            "frame": "BLACKBEARD",
-            "mech": "Fortissimo"
+            "frame": "ATLAS",
+            "mech": "Forte"
         },
       ],
       "header": {
