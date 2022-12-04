@@ -202,7 +202,7 @@ export default {
             "callsign": "Swipe",
             "alias": "Cincin Becerra",
             "code": "8A918E8F-1A29-58EA-9304-32253CE40E06///VOIDSTORM-PMC",
-            "corpro": "HA",
+            "corpro": "HORUS",
             "frame": "PEGASUS",
             "mech": "Kachunka"
         },
@@ -210,7 +210,7 @@ export default {
             "callsign": "Sync",
             "alias": 'Rebecca',
             "code": "880FC45D-67B7-5EBF-A507-C965499E13FC///VOIDSTORM-PMC",
-            "corpro": "IPS-N",
+            "corpro": "SSC",
             "frame": "ATLAS",
             "mech": "Forte"
         },
