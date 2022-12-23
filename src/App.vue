@@ -195,7 +195,7 @@ export default {
             "alias": "Louise Muselli",
             "code": "067E192D-2DA6-5889-8496-C8D1BA5D0DDB///VOIDSTORM-PMC",
             "corpro": "SSC",
-            "frame": "EMPORER",
+            "frame": "EMPEROR",
             "mech": "Nightingale"
         },
         {
