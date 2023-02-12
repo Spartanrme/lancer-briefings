@@ -339,7 +339,7 @@
       "source": "The TiTechTimes",
       "image": "tt.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "name": "034",
@@ -350,7 +350,7 @@
       "source": "The Silver Sentry",
       "image": "sf.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "name": "035",
@@ -361,7 +361,7 @@
       "source": "THE M.O.O.N.",
       "image": "news.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "name": "036",
@@ -372,7 +372,7 @@
       "source": "THE M.O.O.N.",
       "image": "news.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "name": "037",
@@ -383,7 +383,7 @@
       "source": "The Silver Sentry",
       "image": "sf.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "name": "038",
@@ -394,7 +394,7 @@
       "source": "THE M.O.O.N.",
       "image": "news.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "name": "039",
@@ -404,6 +404,270 @@
       "subtitle": "TiTech security forces have lost track of wanted criminal Simon Mezgebe, wanted for the theft of state secrets, after a failed assault on a safehouse believed to be hosting him. While unsubstantiated, tourism photos on social media may show Simon Mezgebe in Clearday just hours after his escape, possibly linking to a Clearday organized extraction.",
       "source": "The TiTechTimes",
       "image": "tt.png",
+      "clickable": false,
+      "new": false
+    },
+    {
+      "name": "040",
+      "date": "FEB 5016U",
+      "type": "INFO",
+      "title": "RESPONSES TO MERCURY ONE SITUATION",
+      "subtitle": "The following is a conslidated report of various colony's responses to the situation on Mercury One.",
+      "source": "MULTIPLE SOURCES",
+      "image": "news.png",
+      "clickable": true,
+      "new": true
+    },
+    {
+      "name": "041",
+      "date": "FEB 18 5016U",
+      "type": "INFO",
+      "title": "Mercury One Docking Changes",
+      "subtitle": "Mercury One administrator Mariana Boyd announced today a radical shift in docking and customs policies for the station, loosening requirements for imports and exports aboard the station. This is the first of many changes the new administrator claims to be planning.",
+      "source": "The M.O.O.N.",
+      "image": "news.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "042",
+      "date": "FEB 19 5016U",
+      "type": "INFO",
+      "title": "Goldmine's Disappearance Revealed?",
+      "subtitle": "A video transmitted from aboard the Silvestri supercarrier “Goldmine” reveals a possible explanation for why the ship vanished hours ago: powersuits bearing a similar profile to those used by BrightStar Colonies’ “Dark-Sky Commando” teams can be seen in the video, indicating a possible direct engagement between colony states.",
+      "source": "The Silver Sentry",
+      "image": "sf.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "043",
+      "date": "FEB 20 5016U",
+      "type": "INFO",
+      "title": "Bleeding Valley Attacked!",
+      "subtitle": "A massive attack against the Bleeding Valley, Hong-Coleman’s primary mineral extraction site on Perax, has left the site crippled. Multiple skirmishes began simultaneously hours ago, taking out key military and commercial installations, and has left Hong-Coleman scrambling; wreckage from the sites indicates cyberwarfare and remote-piloted platforms consistent with TiTech militarized forces, although Hong-Coleman marines have yet to corner the attackers, who continue to assault locations within the Bleeding Valley, and ransacking refined goods.",
+      "source": "The Survey Survey",
+      "image": "hc.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "044",
+      "date": "FEB 20 5016U",
+      "type": "INFO",
+      "title": "Hong-Coleman Borders Strengthened!",
+      "subtitle": "Hong-Coleman, in response to attacks in the Bleeding Valley earlier today, has mobilized additional troops to patrol the mountain passes and borders with TiTech; the Hong-Coleman government urges their citizens to stay in their homes and keep their ears to the news for further developments.",
+      "source": "The Survey Survey",
+      "image": "hc.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "045",
+      "date": "FEB 21 5016U",
+      "type": "INFO",
+      "title": "TiTech Encroaches on Hong-Coleman Territory!",
+      "subtitle": "A brief skirmish broke out between Hong-Coleman and TiTech forces posted near a key mountain crossing; leaders on both sides are rushing to determine who initiated this act of aggression, but so far no details are known.",
+      "source": "The Survey Survey",
+      "image": "hc.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "046",
+      "date": "FEB 22 5016U",
+      "type": "INFO",
+      "title": "ECHO-Pattern Satellite Complete!",
+      "subtitle": "Hours after an armed skirmish broke out between Hong-Coleman and TiTech, resulting in currently 43 accounted casualties, Hong-Coleman has completed work on their ECHO-Pattern satellite cyber-security system; the system reveals, Shoushan Han claims, that TiTech is irrefutably responsible for both the attack against Hong-Coleman as well as the Bleeding Valley attacks yesterday.",
+      "source": "The Survey Survey",
+      "image": "hc.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "047",
+      "date": "FEB 25 5016U",
+      "type": "INFO",
+      "title": "Riots in Clearday Escalate",
+      "subtitle": "Arrests soar as Clearday increases crackdowns on the riots following the assassination of Cynthia Jenkell. Melody Dimayuga, who leads The Clearday National Union, calls for “external intervention” as “The New Dawn is incapable of the leadership necessary during wartime.” The New Dawn party has yet to elect a new leader. Umair Kamal of the “Old Guard” party calls for Clearday to close its borders to focus on “getting our footing back” as the frontlines “creep ever closer to our doorstep”",
+      "source": "The NEW DAWN GAZETTE",
+      "image": "cd.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "048",
+      "date": "FEB 28 5016U",
+      "type": "INFO",
+      "title": "Sword in Stone officially commences!",
+      "subtitle": "Silverton Families' Brotherhood of Blades opens the \"Sword in Stone\" competition. A call to arms and a chance of glory for all who apply! Knights will be traveling to all of Silverton for recruitment! Join now, as thousands of your brothers and sisters have already responded to the call.",
+      "source": "The Silver Sentry",
+      "image": "sf.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "049",
+      "date": "MAR 02 5016U",
+      "type": "INFO",
+      "title": "Bleeding Valley Attacks Escalate!",
+      "subtitle": "The intensifying situation at Bleeding Valley has forced Hong-Coleman to escalate their response. As our enemies have been undiscriminating in their targets, Hong-Coleman have upped retaliatory strikes. And to ensure the enemy has no time to regain their footing, anti-guerilla pilots from the brave MADMAN group have valiantly joined the defense of the Bleeding Valley.",
+      "source": "The Survey Survey",
+      "image": "hc.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "050",
+      "date": "MAR 03 5016U",
+      "type": "INFO",
+      "title": "Spaceports Overwhelmed",
+      "subtitle": "Spaceports all over Perax overwhelmed as those displaced seek safety. In accordance with Union Pillars, all colonies have pledged one way or another to ensure the safety of spaceports. Marariana Boyd has pledged that Mercury One will continue with the easement of its docking procedures to assist with the influx and management of displaced persons.",
+      "source": "The M.O.O.N.",
+      "image": "news.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "051",
+      "date": "MAR 05 5016U",
+      "type": "INFO",
+      "title": "Digital Defense Department Formed",
+      "subtitle": "TiTech forms the “Digital Defense Department”, a branch of TiTech dedicated to the contracting of cyber capabilities between TiTech and its many businesses. Kamden Gardner leads as the head of the department, releasing a statement earlier today: “Now every citizen has a chance to contribute to the safety of TiTech. Through this department we can scale our defenses to any cyber threat our adversaries dare throw at us.” The department has outlined key contributions it is seeking with lucrative compensation that has attracted numerous applicants.",
+      "source": "The TiTechTimes",
+      "image": "tt.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "052",
+      "date": "MAR 10 5016U",
+      "type": "INFO",
+      "title": "Silverton Grid Attacked",
+      "subtitle": "Silverton Ambrosini Agri-Processing plants on auxiliary power after a devastating cyber attack leaves the grid crippled. Celina Casella calls the attack cowardly, as no colony has claimed responsibility for the attack. Silverton engineers are working diligently to restore full capacity.",
+      "source": "The Silver Sentry",
+      "image": "sf.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "053",
+      "date": "MAR 17 5016U",
+      "type": "INFO",
+      "title": "Silverton Grid Restored, Investigation Opened",
+      "subtitle": "Silverton grid restored to full capacity. Silverton’s Office of Market Investigation has launched a full scale investigation into the attack.",
+      "source": "The Silver Sentry",
+      "image": "sf.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "054",
+      "date": "MAR 26 5016U",
+      "type": "INFO",
+      "title": "Meton Relocates, Led by Hero",
+      "subtitle": "Hong-Coleman city Meton relocates downriver after Bleeding Valley skirmishes intensify. The heroic Onodera Oniwa personally led the escort. “The citizens of Meton are strong. I can feel their devotion to their homeland even while bombs and missiles explode in the distance. The citizens of Meton serve as an example of what everyone in Hong-Coleman should strive for.”",
+      "source": "The Survey Survey",
+      "image": "hc.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "055",
+      "date": "APR 01 5016U",
+      "type": "INFO",
+      "title": "Clearday Elects new Leader",
+      "subtitle": "Clearday New Dawn party deadlock prompts emergency referendum. Hikari Fujita, leading the Perax People's United Front, elected as head of state.",
+      "source": "The NEW DAWN GAZETTE",
+      "image": "cd.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "056",
+      "date": "APR 02 5016U",
+      "type": "INFO",
+      "title": "Clearday Resolve remains Resolute",
+      "subtitle": "Hong-Coleman begins bolstering forces at Gaodan Mines. Clearday Fujita issues a statement on defending Clearday borders. “The chaos of war will not shake Clearday. Any colony that violates our borders will be met with the full might of our armed forces. We remain united as colonies throw Perax into upheaval. We shall remain the haven for the oppressed, now and always.”",
+      "source": "The NEW DAWN GAZETTE",
+      "image": "cd.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "057",
+      "date": "APR 05 5016U",
+      "type": "INFO",
+      "title": "Tax Credits Offered to Hong-Coleman Manufacturers",
+      "subtitle": "Hong-Coleman passes a law issuing tax credits towards wartime manufacturing.",
+      "source": "The Survey Survey",
+      "image": "hc.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "058",
+      "date": "APR 12 5016U",
+      "type": "INFO",
+      "title": "Silverton Encroaches on BSC Borders",
+      "subtitle": "Silvertons station forces near the BSC border, citing hostile wildlife as the cause. BrightStar has responded by stating wildlife patterns have shown little to no aggressive confrontations near these borders.",
+      "source": "THE BRIGHTSTAR POST",
+      "image": "bs.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "059",
+      "date": "MAY 03 5016U",
+      "type": "INFO",
+      "title": "Walford hit by stray airstrikes as air defenses struggle to keep up against the Hong-Coleman FLASH-FIRE constellation.",
+      "subtitle": "",
+      "source": "The Survey Survey",
+      "image": "hc.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "060",
+      "date": "MAY 05 5016U",
+      "type": "INFO",
+      "title": "TiTech unveils \"ASTRAEUS' HAMMER\", an anti-satellite system capable of \"Defending our citizens from the threats above.\"",
+      "subtitle": "",
+      "source": "The TiTechTimes",
+      "image": "tt.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "061",
+      "date": "MAY 05 5016U",
+      "type": "INFO",
+      "title": "Hong-Coleman repositions FLASH-FIRE constellation to focus on repelling the invaders at Bleeding Valley.",
+      "subtitle": "",
+      "source": "The Survey Survey",
+      "image": "hc.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "062",
+      "date": "MAY 25 5016U",
+      "type": "INFO",
+      "title": "TRAITOR EXECUTED!",
+      "subtitle": "Silverton publicly executes a spy suspected of working for BrightStar. “Our Office of Market Investigations has uncovered that extensive insider knowledge was used in the attack on Ambrosini” said Celina Casella before the execution. “Evidence has pointed to an employee by the name John Faraz, who the investigation revealed was not from Silverton. Our enemies are within our borders brothers and sisters. And it is up to each and every one of us to remain vigilant.”",
+      "source": "The Silver Sentry",
+      "image": "sf.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "name": "063",
+      "date": "JUNE 02 5016U",
+      "type": "INFO",
+      "title": "Silverton Blockades BrightStar",
+      "subtitle": "Silvertons begin blockade of Port Brave, demanding extradition of suspected \"Dark-Sky Commando\" leader responsible for Goldmine loss. Rokurou Masuda calls the blockade “Inconvenient.”",
+      "source": "The Silver Sentry",
+      "image": "sf.png",
       "clickable": false,
       "new": true
     }

@@ -2,9 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\public\\events",
-    "\\public\\mechs",
-    "\\public\\missions",
+    "\\public\\eventImages",
     "\\src",
     "\\src\\assets",
     "\\src\\assets\\styles",

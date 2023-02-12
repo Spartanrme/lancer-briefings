@@ -170,30 +170,30 @@ export default {
         {
             "slug": "008",
             "name": "SUPPORT",
-            "status": "start"
+            "status": "success"
         }
       ],
       "pilots": [
         {
             "callsign": "Architect",
             "alias": "Victor Blayse",
-            "code": "BF5D1D96-BB30-5913-B1C1-A666AB76C1AE///VOIDSTORM-PMC",
+            "code": "c61b1535-1fd0-4af0-98d6-dce39f0c21f1//NDL-C-TANGENT-HIDE",
             "corpro": "IPS-N",
             "frame": "ZHENG",
             "mech": "Esperanza_Invicta"
         },
         {
-            "callsign": "Battery",
-            "alias": "Martin Snyder",
-            "code": "0136BD17-316E-5A41-B1E3-460AA0AC09F9///VOIDSTORM-PMC",
-            "corpro": "IPS-N",
-            "frame": "TORTUGA",
-            "mech": "House_Call"
+            "callsign": "Einsamjäger",
+            "alias": "Sophia Winterschwert",
+            "code": "43b7bc7f-ac17-4b12-8d83-1af33ce4cbf4//NDL-C-LUNAR-HELIX",
+            "corpro": "SSC",
+            "frame": "MOURNING CLOAK",
+            "mech": "Endlose_Nacht"
         },
         {
             "callsign": "Panther",
             "alias": "Louise Muselli",
-            "code": "067E192D-2DA6-5889-8496-C8D1BA5D0DDB///VOIDSTORM-PMC",
+            "code": "47216c81-488d-449a-a3ce-188b94bfcf32//NDL-C-BRONZE-CAGE",
             "corpro": "SSC",
             "frame": "EMPEROR",
             "mech": "Nightingale"
@@ -201,24 +201,32 @@ export default {
         {
             "callsign": "Swipe",
             "alias": "Cincin Becerra",
-            "code": "8A918E8F-1A29-58EA-9304-32253CE40E06///VOIDSTORM-PMC",
+            "code": "a0d6b0d4-867d-496f-b470-20bd3ad65bd5//NDL-C-DELTA-TEMPLE",
             "corpro": "HORUS",
             "frame": "PEGASUS",
             "mech": "Kachunka"
         },
         {
-            "callsign": "Sync",
-            "alias": 'Rebecca',
-            "code": "880FC45D-67B7-5EBF-A507-C965499E13FC///VOIDSTORM-PMC",
-            "corpro": "SSC",
-            "frame": "ATLAS",
-            "mech": "Forte"
+            "callsign": "Thunderclap",
+            "alias": "Juniper \"June\" Crathis",
+            "code": "3c33258e-a674-4aaf-b0d4-af95e72212ae//NDL-C-BLIND-FEW",
+            "corpro": "HA",
+            "frame": "SALADIN",
+            "mech": "Exceed"
         },
+        //{
+        //    "callsign": "Sync",
+        //    "alias": 'Rebecca',
+        //    "code": "b71315de-31ad-43cf-8273-27fb989b6a09//NDL-C-NULL-ASH",
+        //    "corpro": "SSC",
+        //    "frame": "ATLAS",
+        //    "mech": "Forte"
+        //},
       ],
       "header": {
         "planet": "Perax-1",
         "year": "5016u",
-        "month": "Feburary",
+        "month": "June",
         "system": "Perax",
         "gate": "M'Goun",
         "ring": "ATLAS",
