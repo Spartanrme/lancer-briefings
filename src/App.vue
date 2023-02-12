@@ -128,7 +128,7 @@ export default {
 
   data() {
     return {
-      "mission_slug": "008",
+      "mission_slug": "009",
       "current_md": "",
       "events": events.events,
       "missions": [
@@ -171,7 +171,13 @@ export default {
             "slug": "008",
             "name": "SUPPORT",
             "status": "success"
+        },
+        {
+            "slug": "009",
+            "name": "INVESTIGATE",
+            "status": "start"
         }
+
       ],
       "pilots": [
         {
@@ -180,7 +186,8 @@ export default {
             "code": "c61b1535-1fd0-4af0-98d6-dce39f0c21f1//NDL-C-TANGENT-HIDE",
             "corpro": "IPS-N",
             "frame": "ZHENG",
-            "mech": "Esperanza_Invicta"
+            "mech": "Esperanza_Invicta",
+            "status": "Active"
         },
         {
             "callsign": "Einsamjäger",
@@ -188,7 +195,8 @@ export default {
             "code": "43b7bc7f-ac17-4b12-8d83-1af33ce4cbf4//NDL-C-LUNAR-HELIX",
             "corpro": "SSC",
             "frame": "MOURNING CLOAK",
-            "mech": "Endlose_Nacht"
+            "mech": "Endlose_Nacht",
+            "status": "Active"
         },
         {
             "callsign": "Panther",
@@ -196,7 +204,8 @@ export default {
             "code": "47216c81-488d-449a-a3ce-188b94bfcf32//NDL-C-BRONZE-CAGE",
             "corpro": "SSC",
             "frame": "EMPEROR",
-            "mech": "Nightingale"
+            "mech": "Nightingale",
+            "status": "Active"
         },
         {
             "callsign": "Swipe",
@@ -204,7 +213,8 @@ export default {
             "code": "a0d6b0d4-867d-496f-b470-20bd3ad65bd5//NDL-C-DELTA-TEMPLE",
             "corpro": "HORUS",
             "frame": "PEGASUS",
-            "mech": "Kachunka"
+            "mech": "Pandemonium",
+            "status": "Active"
         },
         {
             "callsign": "Thunderclap",
@@ -212,16 +222,27 @@ export default {
             "code": "3c33258e-a674-4aaf-b0d4-af95e72212ae//NDL-C-BLIND-FEW",
             "corpro": "HA",
             "frame": "SALADIN",
-            "mech": "Exceed"
+            "mech": "Exceed",
+            "status": "Active"
         },
-        //{
-        //    "callsign": "Sync",
-        //    "alias": 'Rebecca',
-        //    "code": "b71315de-31ad-43cf-8273-27fb989b6a09//NDL-C-NULL-ASH",
-        //    "corpro": "SSC",
-        //    "frame": "ATLAS",
-        //    "mech": "Forte"
-        //},
+        {
+            "callsign": "Sync",
+            "alias": 'Rebecca',
+            "code": "b71315de-31ad-43cf-8273-27fb989b6a09//NDL-C-NULL-ASH",
+            "corpro": "SSC",
+            "frame": "ATLAS",
+            "mech": "Forte",
+            "status": "Inactive"
+        },
+        {
+            "callsign": "Battery",
+            "alias": "Martin Snyder",
+            "code": "REDACTED",
+            "corpro": "IPS-N",
+            "frame": "TORTUGA",
+            "mech": "House_Call",
+            "status": "AWOL"
+        }
       ],
       "header": {
         "planet": "Perax-1",

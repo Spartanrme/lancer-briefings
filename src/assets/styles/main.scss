@@ -750,75 +750,75 @@ section .section-header {
 }
 
 #pilots .pilot {
-  display: flex;
-  flex-direction: row;
-  padding: 1em;
-  column-gap: 1em;
-  height: 136px;
-  border-bottom: none;
-  z-index: 1;
-  cursor: pointer;
-
-  .pilot-loadout {
-    width: 250px;
     display: flex;
-    flex-direction: column;
-    row-gap: 0px;
-  }
+    flex-direction: row;
+    padding: 1em;
+    column-gap: 1em;
+    height: 140px;
+    border-bottom: none;
+    z-index: 1;
+    cursor: pointer;
 
-  .mech-loadout {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 0px;
-    text-align: right;
-  }
+    .pilot-loadout {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0px;
+    }
 
-  .pilot-portrait {
-    width: 104px;
-    height: 136px;
-    object-fit: cover;
-    object-position: top;
-  }
+    .mech-loadout {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0px;
+        text-align: right;
+    }
 
-  .mech-portrait {
-    width: 104px;
-    height: 136px;
-    object-fit: cover;
-  }
+    .pilot-portrait {
+        width: 104px;
+        height: 136px;
+        object-fit: contain;
+        object-position: top;
+    }
 
-  h1 {
-    margin: 0px;
-    margin-bottom: 0.25em;
-    line-height: 1.5em;
-    font-family: "Raleway", sans-serif;
-    font-size: 10px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: $text-pilot-header;
-  }
+    .mech-portrait {
+        width: 104px;
+        height: 136px;
+        object-fit: cover;
+    }
 
-  h2 {
-    font-size: 18px;
-    margin: 0%;
-    margin-bottom: 0.25em;
-    align-self: center;
-    font-family: "Big Shoulders Display", cursive;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: $text-pilot-value;
-  }
+    h1 {
+        margin: 0px;
+        margin-bottom: 0.25em;
+        line-height: 1.5em;
+        font-family: "Raleway", sans-serif;
+        font-size: 10px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: $text-pilot-header;
+    }
 
-  .code {
-    font-family: "Inconsolata", monospace;
-    font-weight: 400;
-    line-height: 1.25em;
-    font-size: 11px;
-    color: $text-pilot-code;
-    flex-grow: 2;
-  }
+    h2 {
+        font-size: 18px;
+        margin: 0%;
+        margin-bottom: 0.25em;
+        align-self: center;
+        font-family: "Big Shoulders Display", cursive;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: $text-pilot-value;
+    }
+
+    .code {
+        font-family: "Inconsolata", monospace;
+        font-weight: 400;
+        line-height: 1.25em;
+        font-size: 11px;
+        color: $text-pilot-code;
+        flex-grow: 2;
+    }
 }
 
 #pilots .pilot:last-child {
@@ -855,7 +855,9 @@ section .section-header {
 }
 
 .pilot-wrapper:hover .middle {
-  width: 600px;
+    width: 600px; /* Width of hover animation */
+    margin-top: -155px; /* Starting height */
+    height: 150px; /* Total height */
 }
 
 .pilot-wrapper:active .middle,

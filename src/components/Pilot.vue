@@ -12,6 +12,10 @@
 					<h2>{{ pilot.alias }}</h2>
 				</div>
 				<div class="code">{{ pilot.code }}</div>
+				<div class="name">
+					<h1>Status: {{ pilot.status }}</h1>
+					<h2></h2>
+				</div>
 			</div>
 			<div class="mech-loadout">
 				<div class="name">
