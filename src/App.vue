@@ -128,7 +128,7 @@ export default {
 
   data() {
     return {
-      "mission_slug": "009",
+      "mission_slug": "010",
       "current_md": "",
       "events": events.events,
       "missions": [
@@ -175,6 +175,11 @@ export default {
         {
             "slug": "009",
             "name": "INVESTIGATE",
+            "status": "success"
+        },
+        {
+            "slug": "010",
+            "name": "QUELL",
             "status": "start"
         }
 
