@@ -189,9 +189,9 @@ export default {
             "callsign": "Architect",
             "alias": "Victor Blayse",
             "code": "c61b1535-1fd0-4af0-98d6-dce39f0c21f1//NDL-C-TANGENT-HIDE",
-            "corpro": "IPS-N",
-            "frame": "ZHENG",
-            "mech": "Esperanza_Invicta",
+            "corpro": "SSC",
+            "frame": "Orchis",
+            "mech": "Valiant_Saber",
             "status": "Active"
         },
         {
@@ -225,9 +225,9 @@ export default {
             "callsign": "Thunderclap",
             "alias": "Juniper \"June\" Crathis",
             "code": "3c33258e-a674-4aaf-b0d4-af95e72212ae//NDL-C-BLIND-FEW",
-            "corpro": "HA",
-            "frame": "SALADIN",
-            "mech": "Exceed",
+            "corpro": "HORUS",
+            "frame": "LICH",
+            "mech": "Cipher",
             "status": "Active"
         },
         {
@@ -280,7 +280,11 @@ export default {
 
   methods: {
       eventFilter(monthSelected, yearSelected, showSelected) {
-        var eventArr = Object.values(events.events).slice().reverse();
+
+          var eventArr = Object.values(events.events).slice();
+          eventArr.pop(); // Getting rid of the placeholder event (id == -1)
+          eventArr.reverse();
+
         if (showSelected == 1) {
             eventArr = eventArr.filter(x => x.new == true);
         } else eventArr.filter(x => x.new == false);

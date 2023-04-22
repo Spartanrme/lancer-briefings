@@ -1,9 +1,9 @@
 {
   "events": [
     {
-      "name": "001",
+      "id": 1,
       "date": "OCT 5015U",
-      "type": "Headline",
+      "type": "HEADLINE",
       "title": "PRISON BREAK AND SHOOTOUT AT REDFORGE",
       "subtitle": "LUIS CORT PRIME SUSPECT",
       "source": "THE SURVEY SURVEY",
@@ -12,7 +12,7 @@
       "new": false
     },
     {
-      "name": "002",
+      "id": 2,
       "date": "OCT 5015U",
       "type": "ALERT",
       "title": "REDFORGE UNDER LOCKDOWN AFTER TERRORIST ATTACKS",
@@ -23,9 +23,9 @@
       "new": false
     },
     {
-      "name": "003",
+      "id": 3,
       "date": "NOV 5015U",
-      "type": "Article",
+      "type": "ARTCILE",
       "title": "HONG-COLEMAN DECLARES STATE OF EMERGENCY",
       "subtitle": "In a press release held by a Hong-Coleman spokesperson",
       "source": "THE SURVEY SURVEY",
@@ -34,7 +34,7 @@
       "new": false
     },
     {
-      "name": "006",
+      "id": 6,
       "date": "NOV 5015U",
       "type": "ALERT",
       "title": "HC FLASH-FIRE CONSTELLATION OPERATIONAL AREA EXPANDING",
@@ -45,7 +45,7 @@
       "new": false
     },
     {
-      "name": "007",
+      "id": 7,
       "date": "NOV 27 5015U",
       "type": "INFO",
       "title": "MERCURY-ONE CELEBRATES 20th ANNIVERSARY OF CONOP",
@@ -56,7 +56,7 @@
       "new": false
     },
     {
-      "name": "008",
+      "id": 8,
       "date": "NOV 28 5015U",
       "type": "INFO",
       "title": "PIRACY ON THE RISE",
@@ -67,7 +67,7 @@
       "new": false
     },
     {
-      "name": "009",
+      "id": 9,
       "date": "NOV 30 5015U",
       "type": "INFO",
       "title": "BSC STUDY REVEALS PATTERN OF INCREASING AGGRESSION OF NATIVE PERAX CREATURES",
@@ -78,7 +78,7 @@
       "new": false
     },
     {
-      "name": "010",
+      "id": 10,
       "date": "DEC 01 5015U",
       "type": "INFO",
       "title": "DELAYED HA MARINES ARRIVE IN PERAX, JOIN GROWING FLEET LED BY HAS \"VALIANT\"",
@@ -89,7 +89,7 @@
       "new": false
     },
     {
-      "name": "011",
+      "id": 11,
       "date": "DEC 02 5015U",
       "type": "INFO",
       "title": "TITECH MINIMUM WAGE LAW FAILS TO PASS",
@@ -100,7 +100,7 @@
       "new": false
     },
     {
-      "name": "012",
+      "id": 12,
       "date": "DEC 03 5015U",
       "type": "INFO",
       "title": "TERRORISTS RANSOM SILVERTON'S DELIZA SILVESTRI, DEMANDS SILVESTRI SUPERCARRIER \"ILLUSTRIOUS\"",
@@ -111,7 +111,7 @@
       "new": false
     },
     {
-      "name": "013",
+      "id": 13,
       "date": "DEC 03 5015U",
       "type": "INFO",
       "title": "SSC REACHES AGREEMENT WITH PUC, PLANS FOR CATALOG STORE ON M1",
@@ -122,7 +122,7 @@
       "new": false
     },
     {
-      "name": "014",
+      "id": 14,
       "date": "DEC 05 5015U",
       "type": "INFO",
       "title": "CLEARDAY REJECTS HA OFFER OF CHARITY",
@@ -133,7 +133,7 @@
       "new": false
     },
     {
-      "name": "015",
+      "id": 15,
       "date": "DEC 07 5015U",
       "type": "INFO",
       "title": "SF ANNOUNCES LT. COL. DE MELO TO LEAD NEW SPECIAL TASK FORCE",
@@ -144,7 +144,7 @@
       "new": false
     },
     {
-      "name": "016",
+      "id": 16,
       "date": "DEC 08 5015U",
       "type": "INFO",
       "title": "ENTREPRENEUR SAUL DRAKE BEGINS FORMATION OF \"PERAX TRADERS' COALITION\"",
@@ -155,7 +155,7 @@
       "new": false
     },
     {
-      "name": "017",
+      "id": 17,
       "date": "DEC 10 5015U",
       "type": "INFO",
       "title": "HC JOURNALISTS UNCOVER BOMBING PLOT IN GAODAN, TERRORISTS ARRESTED, POSSIBLE LINK TO CLEARDAY",
@@ -166,7 +166,7 @@
       "new": false
     },
     {
-      "name": "018",
+      "id": 18,
       "date": "DEC 11 5015U",
       "type": "INFO",
       "title": "GAODAN BOMBING THREAT PROMPTS FORMATION OF PERAX MISSILE INTERCEPT FORCE",
@@ -177,7 +177,7 @@
       "new": false
     },
     {
-      "name": "019",
+      "id": 19,
       "date": "DEC 13 5015U",
       "type": "INFO",
       "title": "WALFORD SHOCKED BY NEARBY ARTILLERY FIRE, HC CLAIMS TRAINING EXERCISES",
@@ -188,7 +188,7 @@
       "new": false
     },
     {
-      "name": "020",
+      "id": 20,
       "date": "DEC 24 5015U",
       "type": "INFO",
       "title": "IPS-N Contracted to Protect Interstellar Trade Routes in Response to Increasing Piracy",
@@ -199,7 +199,7 @@
       "new": false
     },
     {
-      "name": "021",
+      "id": 21,
       "date": "DEC 25 5015U",
       "type": "INFO",
       "title": "Shoushan Han Grants Official Pardon to Onodera Oniwa, Welcomed Back Into Service",
@@ -210,7 +210,7 @@
       "new": false
     },
     {
-      "name": "022",
+      "id": 22,
       "date": "DEC 26 5015U",
       "type": "INFO",
       "title": "Smith-Shimano Enters Talks with Silverton Families, Plans for Perax Outpost Colony",
@@ -221,7 +221,7 @@
       "new": false
     },
     {
-      "name": "023",
+      "id": 23,
       "date": "DEC 27 5015U",
       "type": "INFO",
       "title": "Silverton Families Enact \"Perax Galactic Outreach Protocols and Procedures\" Act, TiTech's Roman Castillo Decries as Violation of Perax Foreign Affairs Accords",
@@ -232,7 +232,7 @@
       "new": false
     },
     {
-      "name": "024",
+      "id": 24,
       "date": "DEC 30 5015U",
       "type": "INFO",
       "title": "BrightStar's Rokurou Masuda and Hong-Coleman's Shoushan Han Hold Private Meeting, Rumors of BrightStar Entering Escalating Conflict on Perax",
@@ -243,7 +243,7 @@
       "new": false
     },
     {
-      "name": "025",
+      "id": 25,
       "date": "JAN 1 5016U",
       "type": "INFO",
       "title": "\"Planet Pacifier\" Mohammad Ashok Joins Harrison Armory 613th Fleet, Claims Imminent Beast Hunts as Charitable Service to Colonies",
@@ -254,7 +254,7 @@
       "new": false
     },
     {
-      "name": "026",
+      "id": 26,
       "date": "JAN 14 5016U",
       "type": "INFO",
       "title": "Third Flyby of Unflagged Aerial Units Prompts Another Clearday Alarm",
@@ -265,7 +265,7 @@
       "new": false
     },
     {
-      "name": "027",
+      "id": 27,
       "date": "JAN 18 5016U",
       "type": "INFO",
       "title": "Infamous hacker arrested, sentenced to face trail 'Soon'",
@@ -276,7 +276,7 @@
       "new": false
     },
     {
-      "name": "028",
+      "id": 28,
       "date": "JAN 19 5016U",
       "type": "INFO",
       "title": "Hacker Kokoro Sato Evades BrightStar Law Enforcement, Silverton Claims BSC Aiding and Abetting",
@@ -287,7 +287,7 @@
       "new": false
     },
     {
-      "name": "029",
+      "id": 29,
       "date": "JAN 20 5016U",
       "type": "INFO",
       "title": "Hong-Coleman Announces Development of New \"ECHO-Pattern\" Satellite Network to Enhance Cyber-Security",
@@ -298,7 +298,7 @@
       "new": false
     },
     {
-      "name": "030",
+      "id": 30,
       "date": "JAN 20 5016U",
       "type": "INFO",
       "title": "Action from Armory 6th Expeditionary Fleet! Pirate Asteroid Base Discovered, Obliterated, Armory Starting to Rebuild Remains to Provide Harbor for Fleet Vessels",
@@ -309,7 +309,7 @@
       "new": false
     },
     {
-      "name": "031",
+      "id": 31,
       "date": "JAN 21 5016U",
       "type": "INFO",
       "title": "Silverton Supplies Raided Again! Silverton Plagued by Raiders, Pirates, Internal Factions Push for Greater Isolation, Consolidate and Protect Deliveries/Borders",
@@ -320,7 +320,7 @@
       "new": false
     },
     {
-      "name": "032",
+      "id": 32,
       "date": "JAN 23 5016U",
       "type": "INFO",
       "title": "Clearday Accused of Affording Wanted Persons Safe Harbor Behind Their Walls, Clearday Claims \"All Are Welcome!\"",
@@ -331,7 +331,7 @@
       "new": false
     },
     {
-      "name": "033",
+      "id": 33,
       "date": "FEB 07 5016U",
       "type": "INFO",
       "title": "\"Night Talons\" Forms Contract with TiTech",
@@ -342,7 +342,7 @@
       "new": false
     },
     {
-      "name": "034",
+      "id": 34,
       "date": "FEB 09 5016U",
       "type": "INFO",
       "title": "Silvestri Family Holds Memorial for Desmond Silvestri",
@@ -353,7 +353,7 @@
       "new": false
     },
     {
-      "name": "035",
+      "id": 35,
       "date": "FEB 10 5016U",
       "type": "INFO",
       "title": "IPS-N Bolsters Security Forces at Mercury-One",
@@ -364,7 +364,7 @@
       "new": false
     },
     {
-      "name": "036",
+      "id": 36,
       "date": "FEB 14 5016U",
       "type": "INFO",
       "title": "Harrison Armory Recaptures Asteroid Base",
@@ -375,7 +375,7 @@
       "new": false
     },
     {
-      "name": "037",
+      "id": 37,
       "date": "FEB 15 5016U",
       "type": "INFO",
       "title": "Monster Attacks on the Rise. Mercenary Companies to Blame?",
@@ -386,7 +386,7 @@
       "new": false
     },
     {
-      "name": "038",
+      "id": 38,
       "date": "FEB 15 5016U",
       "type": "INFO",
       "title": "\"Perax Free Traders' Union\" Formed Under Supervison of Saul Drake",
@@ -397,7 +397,7 @@
       "new": false
     },
     {
-      "name": "039",
+      "id": 39,
       "date": "FEB 16 5016U",
       "type": "INFO",
       "title": "Wanted Criminal Simon Mezgebe Still on the Loose",
@@ -408,18 +408,18 @@
       "new": false
     },
     {
-      "name": "040",
+      "id": 40,
       "date": "FEB 5016U",
       "type": "INFO",
       "title": "RESPONSES TO MERCURY ONE SITUATION",
       "subtitle": "The following is a conslidated report of various colony's responses to the situation on Mercury One.",
       "source": "MULTIPLE SOURCES",
-      "image": "news.png",
+      "image": "news1.png",
       "clickable": true,
-      "new": true
+      "new": false
     },
     {
-      "name": "041",
+      "id": 41,
       "date": "FEB 18 5016U",
       "type": "INFO",
       "title": "Mercury One Docking Changes",
@@ -427,10 +427,10 @@
       "source": "The M.O.O.N.",
       "image": "news.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "042",
+      "id": 42,
       "date": "FEB 19 5016U",
       "type": "INFO",
       "title": "Goldmine's Disappearance Revealed?",
@@ -438,10 +438,10 @@
       "source": "The Silver Sentry",
       "image": "sf.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "043",
+      "id": 43,
       "date": "FEB 20 5016U",
       "type": "INFO",
       "title": "Bleeding Valley Attacked!",
@@ -449,10 +449,10 @@
       "source": "The Survey Survey",
       "image": "hc.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "044",
+      "id": 44,
       "date": "FEB 20 5016U",
       "type": "INFO",
       "title": "Hong-Coleman Borders Strengthened!",
@@ -460,10 +460,10 @@
       "source": "The Survey Survey",
       "image": "hc.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "045",
+      "id": 45,
       "date": "FEB 21 5016U",
       "type": "INFO",
       "title": "TiTech Encroaches on Hong-Coleman Territory!",
@@ -471,10 +471,10 @@
       "source": "The Survey Survey",
       "image": "hc.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "046",
+      "id": 46,
       "date": "FEB 22 5016U",
       "type": "INFO",
       "title": "ECHO-Pattern Satellite Complete!",
@@ -482,10 +482,10 @@
       "source": "The Survey Survey",
       "image": "hc.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "047",
+      "id": 47,
       "date": "FEB 25 5016U",
       "type": "INFO",
       "title": "Riots in Clearday Escalate",
@@ -493,10 +493,10 @@
       "source": "The NEW DAWN GAZETTE",
       "image": "cd.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "048",
+      "id": 48,
       "date": "FEB 28 5016U",
       "type": "INFO",
       "title": "Sword in Stone officially commences!",
@@ -504,10 +504,10 @@
       "source": "The Silver Sentry",
       "image": "sf.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "049",
+      "id": 49,
       "date": "MAR 02 5016U",
       "type": "INFO",
       "title": "Bleeding Valley Attacks Escalate!",
@@ -515,10 +515,10 @@
       "source": "The Survey Survey",
       "image": "hc.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "050",
+      "id": 50,
       "date": "MAR 03 5016U",
       "type": "INFO",
       "title": "Spaceports Overwhelmed",
@@ -526,10 +526,10 @@
       "source": "The M.O.O.N.",
       "image": "news.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "051",
+      "id": 51,
       "date": "MAR 05 5016U",
       "type": "INFO",
       "title": "Digital Defense Department Formed",
@@ -537,10 +537,10 @@
       "source": "The TiTechTimes",
       "image": "tt.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "052",
+      "id": 52,
       "date": "MAR 10 5016U",
       "type": "INFO",
       "title": "Silverton Grid Attacked",
@@ -548,10 +548,10 @@
       "source": "The Silver Sentry",
       "image": "sf.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "053",
+      "id": 53,
       "date": "MAR 17 5016U",
       "type": "INFO",
       "title": "Silverton Grid Restored, Investigation Opened",
@@ -559,10 +559,10 @@
       "source": "The Silver Sentry",
       "image": "sf.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "054",
+      "id": 54,
       "date": "MAR 26 5016U",
       "type": "INFO",
       "title": "Meton Relocates, Led by Hero",
@@ -570,10 +570,10 @@
       "source": "The Survey Survey",
       "image": "hc.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "055",
+      "id": 55,
       "date": "APR 01 5016U",
       "type": "INFO",
       "title": "Clearday Elects new Leader",
@@ -581,10 +581,10 @@
       "source": "The NEW DAWN GAZETTE",
       "image": "cd.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "056",
+      "id": 56,
       "date": "APR 02 5016U",
       "type": "INFO",
       "title": "Clearday Resolve remains Resolute",
@@ -592,10 +592,10 @@
       "source": "The NEW DAWN GAZETTE",
       "image": "cd.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "057",
+      "id": 57,
       "date": "APR 05 5016U",
       "type": "INFO",
       "title": "Tax Credits Offered to Hong-Coleman Manufacturers",
@@ -603,10 +603,10 @@
       "source": "The Survey Survey",
       "image": "hc.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "058",
+      "id": 58,
       "date": "APR 12 5016U",
       "type": "INFO",
       "title": "Silverton Encroaches on BSC Borders",
@@ -614,10 +614,10 @@
       "source": "THE BRIGHTSTAR POST",
       "image": "bs.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "059",
+      "id": 59,
       "date": "MAY 03 5016U",
       "type": "INFO",
       "title": "Walford hit by stray airstrikes as air defenses struggle to keep up against the Hong-Coleman FLASH-FIRE constellation.",
@@ -625,10 +625,10 @@
       "source": "The Survey Survey",
       "image": "hc.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "060",
+      "id": 60,
       "date": "MAY 05 5016U",
       "type": "INFO",
       "title": "TiTech unveils \"ASTRAEUS' HAMMER\", an anti-satellite system capable of \"Defending our citizens from the threats above.\"",
@@ -636,10 +636,10 @@
       "source": "The TiTechTimes",
       "image": "tt.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "061",
+      "id": 61,
       "date": "MAY 05 5016U",
       "type": "INFO",
       "title": "Hong-Coleman repositions FLASH-FIRE constellation to focus on repelling the invaders at Bleeding Valley.",
@@ -647,10 +647,10 @@
       "source": "The Survey Survey",
       "image": "hc.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "062",
+      "id": 62,
       "date": "MAY 25 5016U",
       "type": "INFO",
       "title": "TRAITOR EXECUTED!",
@@ -658,18 +658,84 @@
       "source": "The Silver Sentry",
       "image": "sf.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
-      "name": "063",
+      "id": 63,
       "date": "JUNE 02 5016U",
       "type": "INFO",
       "title": "Silverton Blockades BrightStar",
-      "subtitle": "Silvertons begin blockade of Port Brave, demanding extradition of suspected \"Dark-Sky Commando\" leader responsible for Goldmine loss. Rokurou Masuda calls the blockade “Inconvenient.”",
+      "subtitle": "Silverton has begun a blockade of Port Brave, demanding extradition of suspected \"Dark-Sky Commando\" leader responsible for Goldmine loss. Rokurou Masuda calls the blockade “Inconvenient.”",
       "source": "The Silver Sentry",
       "image": "sf.png",
       "clickable": false,
+      "new": false
+    },
+    {
+      "id": 64,
+      "date": "JUNE 05 5016U",
+      "type": "INFO",
+      "title": "BrightStar Lodges Formal Complaint to UAB Representative",
+      "subtitle": "Rokurou Masuda has lodged a formal complaint against Silverton's blockade of Port Brave with the UAB Representative for Perax, Union Administrator Hagos Kassahun. \"This foolishness has gone on long enough.\" said Masuda in a recent press release. \"Silverton is impeding important research and trade that is critical given the current atmosphere Perax finds itself in. It is thus why I have called upon Union`s representative to step in on this matter. While they maintain a strict policy of non-interference in the current situation, it is my firm belief that Silverton is beginning to overstep the bounds implied by the Four Pillars. BrightStar most certainly is not interested in being dragged into a senseless conflict, and I am sure my counterpart in Silverton understands they have little to gain if they tried.\"",
+      "source": "",
+      "image": "bs.png",
+      "clickable": false,
       "new": true
+    },
+    {
+      "id": 65,
+      "date": "JUNE 8 5016U",
+      "type": "INFO",
+      "title": "Union Administrator Hagos Kassahun to Act as Intermediary in Blockade Negotiations",
+      "subtitle": "Administrator Kassahun, who has primarily been overseeing the movement of the Perax Diaspora and the safety of the spaceports, has announced that they will be acting as an intermediary in the negotiations between The Silverton Families and BrightStar Colonies regarding the former`s blockade. In a statement released earlier today Kassahun recounts the difficulties Union faces balancing the autonomy and freedom frontiers such as Perax demand, \"It's been a perilous time for the millions of Perax citizens. The very nature of the Perax system, far from the reach of Union and vastly unexplored, calls for a degree of sovereignty by those that work it`s fields. And by abiding to a the common framework laid out by Union, the very pillars holding us all together, we can ensure this frontier`s survival. By our laws so long as these pillars are maintained Union will continue to not interfere in this conflict. That being said, in addition to my current duties the blockade that Silverton has imposed upon BrightStar warrants my attention.\" Kassahun declined further comment.",
+      "source": "",
+      "image": "bs.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 66,
+      "date": "JUN 13 5016U",
+      "type": "INFO",
+      "title": "Silverton Relaxes Blockade of Port Brave",
+      "subtitle": "After tense negotiations between Silverton and BrightStar representatives, Kassahun has announced that Silverton has agreed to relax the blockade against Port Brave. In exchange BrightStar has agreed to release Dark-Sky Commando Luka Oleksei to Silverton custody, who now awaits trial to face justice for the loss of Goldmine.",
+      "source": "",
+      "image": "sf.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 67,
+      "date": "JUN 14 5016U",
+      "type": "INTERNAL VST REPORT",
+      "title": "Perax Conflict Assessment",
+      "subtitle": "The situation on Perax continues to evolve. Hong-Coleman`s slow approach and long-range artillery is battering many of TiTech`s forward bases and limiting TiTech`s ability to gain a foothold anywhere near Hong-Coleman borders. However, TiTech`s cyber-warfare capabilities remain unmatched, consistently giving Hong-Coleman pause long enough for TiTech to continuously regroup and redouble efforts on many of their operations. Now even given that, and the fact that this conflict has been waged for quite some time now, both sides still exhibit an amount of measured caution that causes me to conclude that they are both still testing each other`s capabilities. There are key facilities and strategic locations, such as printer facilities, that both sides (to my knowledge) have not made any major attempt against. Instead continuing to rely heavily on mechanized chassis, attempting to establish footholds near and around key sections of borders. TiTech and Hong-Coleman both seem to be preparing for a prolonged fight as the core military units (Tanks, Fighters, etc...) have yet to see large scale deployment yet.",
+      "source": "",
+      "image": "NHPs/noah.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 68,
+      "date": "JUN 15 5016U",
+      "type": "INTERNAL VST ANNOUCEMENT",
+      "title": "Air Condition Fixed!",
+      "subtitle": "It is with great pleasure that I announce that, thanks to the tremendous efforts by the Engineering Core with special thanks to engineer Architect, that the air condition on The Voidstorm has been restored! Please bring forward any further issues with atmospheric controls to chief Biruk, thank you.",
+      "source": "",
+      "image": "NHPs/legion.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": -1,
+      "date": "MONTH DAY 5016U",
+      "type": "INFO",
+      "title": "TITLE",
+      "subtitle": "",
+      "source": "",
+      "image": "IMAGE.png",
+      "clickable": false,
+      "new": false
     }
   ]
 }

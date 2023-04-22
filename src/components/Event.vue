@@ -23,7 +23,7 @@
 				<div class="name">
 					<h2>{{ event.title }}</h2>
 					<h1>{{event.type}}//{{ event.date }}</h1>
-					<h1><i>FROM {{event.source}}</i></h1>
+					<h1><i>FROM {{eventNameSource}}</i></h1>
 					<h1>{{ event.subtitle }}</h1>
 				</div>
 			</div>
@@ -52,6 +52,29 @@ export default {
 		eventPortrait() {
 			return `/eventImages/${this.event.image}`
 		},
+		eventNameSource() {
+			var imageName = this.event.image;
+			imageName = imageName.split('.')[0];
+			var sourceFileName = '';
+			if (imageName != null)
+                sourceFileName = `/eventImages/${imageName}.txt`;
+
+            var sourceName = '';
+			var rawFile = new XMLHttpRequest();
+            rawFile.open("GET", sourceFileName, false);
+            rawFile.onreadystatechange = function () {
+                if (rawFile.readyState === 4) {
+                    if (rawFile.status === 200 || rawFile.status == 0) {
+                        sourceName = rawFile.responseText;
+                    }
+                }
+			}
+			rawFile.send(null);
+
+			if(sourceName != null && sourceName != '')
+                return sourceName
+			else return this.event.source
+        }
 	},
 	methods: {
 		eventModal() {

@@ -2,12 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\public\\missions",
+    "\\public\\eventImages",
+    "\\public\\eventImages\\NHPs",
     "\\src",
     "\\src\\assets",
     "\\src\\assets\\styles",
-    "\\src\\components",
-    "\\src\\components\\layout"
+    "\\src\\components"
   ],
-  "PreviewInSolutionExplorer": false
+  "SelectedNode": "\\src",
+  "PreviewInSolutionExplorer": true
 }
