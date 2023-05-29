@@ -588,7 +588,7 @@
       "date": "APR 02 5016U",
       "type": "INFO",
       "title": "Clearday Resolve remains Resolute",
-      "subtitle": "Hong-Coleman begins bolstering forces at Gaodan Mines. Clearday Fujita issues a statement on defending Clearday borders. “The chaos of war will not shake Clearday. Any colony that violates our borders will be met with the full might of our armed forces. We remain united as colonies throw Perax into upheaval. We shall remain the haven for the oppressed, now and always.”",
+      "subtitle": "Hong-Coleman begins bolstering forces at Gaodan Mines. PM Hikari Fujita issues a statement on defending Clearday borders, “The chaos of war will not shake Clearday. Any colony that violates our borders will be met with the full might of our armed forces. We remain united as colonies throw Perax into upheaval. We shall remain the haven for the oppressed, now and always.”",
       "source": "The NEW DAWN GAZETTE",
       "image": "cd.png",
       "clickable": false,
@@ -680,7 +680,7 @@
       "source": "",
       "image": "bs.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "id": 65,
@@ -691,7 +691,7 @@
       "source": "",
       "image": "bs.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "id": 66,
@@ -702,7 +702,7 @@
       "source": "",
       "image": "sf.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "id": 67,
@@ -713,7 +713,7 @@
       "source": "",
       "image": "NHPs/noah.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "id": 68,
@@ -724,6 +724,83 @@
       "source": "",
       "image": "NHPs/legion.png",
       "clickable": false,
+      "new": false
+    },
+    {
+      "id": 69,
+      "date": "JUN 18 5016U",
+      "type": "INFO",
+      "title": "RISING CHAMPIONS: Vihaan Ahuja",
+      "subtitle": "As the Sword in Stone competition is in full swing, many competitors have already shown great promise. Today’s spotlight is Vihaan Ahuja: A humble worker from the Idyllia Printer Facilities. Vihaan, having been inspired by the mechs he was working on, trained on a self made chassis put together from unused scraps of those very mechs. Vihaan’s engineering prowess has catapulted him ahead of the competition, out-piloting even seasoned fighters. Vihaan aspires to defend his homeland against any threats - a dream all citizens of Silverton should hold dear.",
+      "source": "The Silvered Chain",
+      "image": "sf.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 70,
+      "date": "JUN 20 5016U",
+      "type": "INFO",
+      "title": "COALITION GOVERNMENT STANDS UP OFFICE OF PRODUCTION AND LABOR",
+      "subtitle": "The Clearday Coalition recently authorized the creation of a new office to oversee the expansion of Clearday manufacturing opportunities. In the press release regarding the bill, current PM Fujita stated, \"Our parties agree that this bill is crucial in ensuring Clearday can continue operating independently. Further breaking our ties with Hong-Coleman and their equipment.\" Critics of the move decry it as 'needlessly hostile and unproductive' - Melody Dimayuga, who leads the notorious National Union party, was seen walking out during the vote.",
+      "source": "The NEW DAWN GAZETTE",
+      "image": "cd.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 71,
+      "date": "JUN 20 5016U",
+      "type": "INFO",
+      "title": "PM Hikari Fujita PUSHES FORWARD SILVERTON TRADE DEAL",
+      "subtitle": "Hikari Fujita, current Prime Minister and lead of The Perax People’s United Front, continues to push forward a strategic Silverton Trade deal through the Chamber. The deal, which would provide critical manufacturing supplies would jumpstart Clearday`s manufacturing independence - an important aspect in ensuring our continued sovereignty.",
+      "source": "The UNITED FRONT PAPERS",
+      "image": "cd.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 72,
+      "date": "JUN 20 5016U",
+      "type": "INFO",
+      "title": "HONG-COLEMAN EXPANDS DISPLACEMENT ASSISTANCE PROGRAM; A GUIDE",
+      "subtitle": "Attacks on the Bleeding Valley miners have been increasing exponentially, and so in response the displacement assistance program has received additional funding to expand its capabilities and reach. In today's issue we'll be going over the most common questions - and helping you determine what the best course of action for you, your family, and/or loved ones is to ensure the maximum safety during this conflict. Especially to our miners and their families in the Bleeding Valley, who our enemies decided are acceptable targets.",
+      "source": "The WORKING MANS DIGEST",
+      "image": "hc.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 73,
+      "date": "JUN 21 5016U",
+      "type": "INFO",
+      "title": "WHITE PAPER ON FAUNA AGGRESSIVENESS",
+      "subtitle": "The following part of a two-part study has been officially released by BrightStar. The study, led by the prestigious FLIGHTLESS BIRD group",
+      "source": "The SIXTH MAGNITUDE",
+      "image": "bs.png",
+      "clickable": true,
+      "new": true
+    },
+    {
+      "id": 74,
+      "date": "JUN 23 5016U",
+      "type": "INFO",
+      "title": "GANG ENFORCEMENT DECREASING? TITECH OFFICALS SILENT!",
+      "subtitle": "Is TiTech enforcement of curbing gangs decreasing? Our team of investigators have returned with their answer! Recently many small businesses have been reporting an uptick in threats and demands of an exorbitant amount of 'protection money'. In addition, many businesses have found their employees leaving for more 'lucrative' positions' - GANGSTERS! TiTech has been suspiciously silent on the issue which leads us to believe what we feared all along. That this 'war' is merely a cover for TiTech to line their pockets!",
+      "source": "The Perax Communal",
+      "image": "tt.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 75,
+      "date": "JUN 28 5016U",
+      "type": "INFO",
+      "title": "OKAY NOAH, LET ME TAKE THIS ONE",
+      "subtitle": "This is gonna be a long one (the war, not my analysis)",
+      "source": "THE JOINT EFFORT OF ASURA, NOAH, SISYPHUS, AND ATHENA",
+      "image": "NHPS/Asura.png",
+      "clickable": true,
       "new": true
     },
     {
@@ -735,7 +812,7 @@
       "source": "",
       "image": "IMAGE.png",
       "clickable": false,
-      "new": false
+      "new": true
     }
   ]
 }

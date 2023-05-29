@@ -6,7 +6,7 @@
 				<div class="name">
 					<h2>{{ event.title }}</h2>
 					<h1>{{event.type}}//{{ event.date }}</h1>
-					<h1><i>FROM {{event.source}}</i></h1>
+					<h1><i>FROM {{eventNameSource}}</i></h1>
 					<h1>{{ event.subtitle }}...</h1>
 					<h1><strong>(Read more...)</strong></h1>
 				</div>
@@ -53,6 +53,8 @@ export default {
 			return `/eventImages/${this.event.image}`
 		},
 		eventNameSource() {
+			if (this.event.source != "")
+				return this.event.source;
 			var imageName = this.event.image;
 			imageName = imageName.split('.')[0];
 			var sourceFileName = '';
