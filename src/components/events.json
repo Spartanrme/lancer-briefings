@@ -588,7 +588,7 @@
       "date": "APR 02 5016U",
       "type": "INFO",
       "title": "Clearday Resolve remains Resolute",
-      "subtitle": "Hong-Coleman begins bolstering forces at Gaodan Mines. Clearday Fujita issues a statement on defending Clearday borders. “The chaos of war will not shake Clearday. Any colony that violates our borders will be met with the full might of our armed forces. We remain united as colonies throw Perax into upheaval. We shall remain the haven for the oppressed, now and always.”",
+      "subtitle": "Hong-Coleman begins bolstering forces at Gaodan Mines. PM Hikari Fujita issues a statement on defending Clearday borders, “The chaos of war will not shake Clearday. Any colony that violates our borders will be met with the full might of our armed forces. We remain united as colonies throw Perax into upheaval. We shall remain the haven for the oppressed, now and always.”",
       "source": "The NEW DAWN GAZETTE",
       "image": "cd.png",
       "clickable": false,
@@ -680,7 +680,7 @@
       "source": "",
       "image": "bs.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "id": 65,
@@ -691,7 +691,7 @@
       "source": "",
       "image": "bs.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "id": 66,
@@ -702,7 +702,7 @@
       "source": "",
       "image": "sf.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "id": 67,
@@ -713,7 +713,7 @@
       "source": "",
       "image": "NHPs/noah.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "id": 68,
@@ -724,6 +724,83 @@
       "source": "",
       "image": "NHPs/legion.png",
       "clickable": false,
+      "new": false
+    },
+    {
+      "id": 69,
+      "date": "JUN 18 5016U",
+      "type": "INFO",
+      "title": "DO NOT HEED THE CALL",
+      "subtitle": "",
+      "source": "The Rusted Chain",
+      "image": "sf.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 70,
+      "date": "JUN 20 5016U",
+      "type": "INFO",
+      "title": "COALITION GOVERNMENT AUTHORIZES OFFICE OF PRODUCTION AND LABOR",
+      "subtitle": "",
+      "source": "The NEW DAWN GAZETTE",
+      "image": "cd.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 71,
+      "date": "JUN 20 5016U",
+      "type": "INFO",
+      "title": "PM Hikari Fujita PUSHES FORWARD SILVERTON TRADE DEAL",
+      "subtitle": "",
+      "source": "The UNITED FRONT PAPERS",
+      "image": "cd.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 72,
+      "date": "JUN 20 5016U",
+      "type": "INFO",
+      "title": "HONG-COLEMAN EXPANDS DISPLACEMENT ASSISTANCE PROGRAM; A GUIDE",
+      "subtitle": "",
+      "source": "The WORKING MANS DIGEST",
+      "image": "hc.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 73,
+      "date": "JUN 21 5016U",
+      "type": "INFO",
+      "title": "WHITE PAPER ON FAUNA AGGRESSIVENESS",
+      "subtitle": "The following part of a two-part study has been officially released by BrightStar. The study, led by the prestigious FLIGHTLESS BIRD group",
+      "source": "The SIXTH MAGNITUDE",
+      "image": "bs.png",
+      "clickable": true,
+      "new": true
+    },
+    {
+      "id": 74,
+      "date": "JUN 23 5016U",
+      "type": "INFO",
+      "title": "GANG ENFORCEMENT DECREASING? TITECH OFFICIALS SILENT!",
+      "subtitle": "",
+      "source": "The Perax Communial",
+      "image": "tt.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 75,
+      "date": "JUN 28 5016U",
+      "type": "INFO",
+      "title": "OKAY NOAH, LET ME TAKE THIS ONE",
+      "subtitle": "This is gonna be a long one (the war, not my analysis)",
+      "source": "THE JOINT EFFORT OF ASURA AND NOAH",
+      "image": "NHPS/Asura.png",
+      "clickable": true,
       "new": true
     },
     {
@@ -735,7 +812,7 @@
       "source": "",
       "image": "IMAGE.png",
       "clickable": false,
-      "new": false
+      "new": true
     }
   ]
 }
