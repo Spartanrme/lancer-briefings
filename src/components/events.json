@@ -735,7 +735,7 @@
       "source": "The Silvered Chain",
       "image": "sf.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "id": 70,
@@ -746,7 +746,7 @@
       "source": "The NEW DAWN GAZETTE",
       "image": "cd.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "id": 71,
@@ -757,7 +757,7 @@
       "source": "The UNITED FRONT PAPERS",
       "image": "cd.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "id": 72,
@@ -768,7 +768,7 @@
       "source": "The WORKING MANS DIGEST",
       "image": "hc.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "id": 73,
@@ -779,7 +779,7 @@
       "source": "The SIXTH MAGNITUDE",
       "image": "bs.png",
       "clickable": true,
-      "new": true
+      "new": false
     },
     {
       "id": 74,
@@ -790,7 +790,7 @@
       "source": "The Perax Communal",
       "image": "tt.png",
       "clickable": false,
-      "new": true
+      "new": false
     },
     {
       "id": 75,
@@ -801,6 +801,105 @@
       "source": "THE JOINT EFFORT OF ASURA, NOAH, SISYPHUS, AND ATHENA",
       "image": "NHPS/Asura.png",
       "clickable": true,
+      "new": false
+    },
+    {
+      "id": 76,
+      "date": "JUL 1 5016U",
+      "type": "INTERNAL VST ANNOUCEMENT",
+      "title": "INCREASED SECURITY MEASURES",
+      "subtitle": "Effective immediately, additional security measures are being put in place in light of recent cyber-related events. We will do our best to ensure that these new measures do no interfere with daily operations on the Voidstorm, however we except all personnel to strictly follow these guidelines or face disciplinary action. We appreciate your patience and understanding. You`ll find the updated rules and guidelines in an email shortly.",
+      "source": "",
+      "image": "NHPS/Legion.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 77,
+      "date": "JUL 1 5016U",
+      "type": "Info",
+      "title": "Terrorist Attack on Port Brave",
+      "subtitle": "High casualties reported as a private military company was seen attacking Port Brave this past evening.",
+      "source": "",
+      "image": "bs.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 78,
+      "date": "JUL 3 5016U",
+      "type": "Info",
+      "title": "Attacks in Bleeding Valley Cease",
+      "subtitle": "Thanks to recent efforts by Hong-Coleman Military and several third parties, the attacks on the Bleeding Valley have been repelled. This has bought valuable time for the military to entrench defenses throughout the valley, further discouraging future attacks.",
+      "source": "",
+      "image": "hc.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 79,
+      "date": "JUL 3 5016U",
+      "type": "Info",
+      "title": "Skirmishes near Walford",
+      "subtitle": "Roads and Flightpaths far south of Walford have been cordoned off as the fighting has begun to draw closer to TiTech territory. Walford Security ensures citizens of their safety, continues to enforce strict curfew.",
+      "source": "",
+      "image": "tt.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 80,
+      "date": "JUL 4 5016U",
+      "type": "Info",
+      "title": "Braxton Mautino Nominated as Chief of Security",
+      "subtitle": "Mercury One Administrator Mariana Boyd Nominates Local Businessman Braxton Mautino as Chief of Security.",
+      "source": "",
+      "image": "m1.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 81,
+      "date": "JUL 5 5016U",
+      "type": "Info",
+      "title": "Silverton Border Patrol Gets in Tense Stand-Off with HC Units",
+      "subtitle": "A Hong-Coleman patrol found in Silverton territory was intercepted by Silverton military. After a tense standoff against our stalwart forces, The Hong-Coleman patrol relented and retreated back to neutral grounds.",
+      "source": "The Silver Sentry",
+      "image": "sf.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 82,
+      "date": "JUL 5 5016U",
+      "type": "Info",
+      "title": "BSC Begins Construction of Missile Silos/Defensive Fortresses to Protect Territory from Future Attacks",
+      "subtitle": "In response to the Port Brave attacks, Rokurou Masuda approved the construction of new defensive structures aimed at protecting BrightStar personnel and assets.",
+      "source": "",
+      "image": "bs.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 83,
+      "date": "JUL 7 5016U",
+      "type": "Info",
+      "title": "BSC Releases New Set of Vaccines Against Perax Diseases, Supply Limited so Prices Are High",
+      "subtitle": "",
+      "source": "",
+      "image": "news1.png",
+      "clickable": false,
+      "new": true
+    },
+    {
+      "id": 84,
+      "date": "JUL 10 5016U",
+      "type": "Info",
+      "title": "Clearday Citizens Rally to TiTech Military, Clearday Government Disavows Citizen Action",
+      "subtitle": "Acting Prime Minister Hikari Fujita denounced a rally today where a group of supporters called for TiTech military assistance.",
+      "source": "",
+      "image": "cd.png",
+      "clickable": false,
       "new": true
     },
     {

@@ -185,7 +185,7 @@ export default {
         {
             "slug": "011",
             "name": "LACERATED SARCOPHAGUS",
-            "status": "start"
+            "status": "success"
         }
 
       ],
@@ -257,7 +257,7 @@ export default {
       "header": {
         "planet": "Perax-1",
         "year": "5016u",
-        "month": "June",
+        "month": "July",
         "system": "Perax",
         "gate": "M'Goun",
         "ring": "ATLAS",
