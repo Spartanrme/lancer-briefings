@@ -185,7 +185,7 @@ export default {
         {
             "slug": "011",
             "name": "LACERATED SARCOPHAGUS",
-            "status": "success"
+            "status": "partial-success"
         }
 
       ],
