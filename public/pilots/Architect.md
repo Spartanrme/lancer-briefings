@@ -1,22 +1,9 @@
-## // CURRENT DOSSIER
+## Place of Birth: Shipyard "Progress" in Orbit of Carina, Argo Navis System 
 
-### Current Status
-Active
+Victor Blayse hails from the heart of IPS-N, specifically the vast orbital shipyards around Carina. He was an orphan aboard the shipyard Progress, his birth parents complete unknowns. This was not uncommon on the station, Victor was just one of many children lost for several reasons. To prevent them from causing too much trouble the station's Chief Engineer, Morgan Blayse, unofficially adopted many of them. Morgan cared for his many wards the best he could, often with the help of his engineering team. As such, many of them would go on to join the station's engineering team or find similar work elsewhere in the system. 
 
-### Date of Birth
-May 4983U
+Even amongst the children however, Victor appeared to have a gift for machines. He would spend every moment of time learning all he could from his father or the other engineers. His grasp of machines and engineering was almost frightening to some, almost seeming like he was able to speak with machines or "sense" their inner workings. Victor would spend his young adult life working closely with his father on various projects, only occasionally leaving the station to visit Carina or it's moons for work. 
 
-### Place of Birth
-Carina Orbital Shipyards
+While there were always new projects to work on, eventually things became a little dull. Victor would often wonder what it was like away from the hustle and bustle of IPS-N life. What other sights were out there, and more importantly, what other types of machines and ships? Becoming especially fascinated by the Lancer frames he sometimes serviced, Victor figured one of the best ways to learn would be to hop into a frame himself and see what the universe had to offer. Morgan was of course not exactly happy, but he saw how determined Victor was to leave the nest and explore, and so eventually gave him his blessing. 
 
-### Years of Service
-Rookie
-
-### Prior Combat Experience
-None
-
-### Training
-VR Combat Training
-
-### Primary Skills
-Mechanical Engineering
+Saying goodbye to his father and many siblings, Victor signed up as a trainee pilot and engineer and was recommended to the Voidstorm Mercenary Company, a small organization operating in the distant Perax system.
